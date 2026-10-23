@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-content version="12.8">
+    <module id="c2e7780b-b529-4204-8014-daf1a64f6f3b" name="progAPI">
+        <resource path="AppServer" publish="true"/>
+    </module>
+</module-content>
