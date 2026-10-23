@@ -1,1 +1,7 @@
 process.qmd
+/.metadata
+/hthonpas
+/.sharedavm
+commands.qmd
+database/test.csv
+*.csv#
