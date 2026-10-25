@@ -68,36 +68,49 @@ CLASS APIHandler INHERITS WebHandler:
         DEFINE VARIABLE oResponse AS OpenEdge.Net.HTTP.IHttpResponse NO-UNDO.
         DEFINE VARIABLE oWriter   AS OpenEdge.Web.WebResponseWriter  NO-UNDO.
         DEFINE VARIABLE oBody     AS OpenEdge.Core.String            NO-UNDO.
-        DEFINE VARIABLE oJson AS JsonObject NO-UNDO.
-        DEFINE VARIABLE csku AS CHARACTER NO-UNDO.
+        DEFINE VARIABLE oJson AS JsonObject NO-UNDO.        
         DEFINE VARIABLE getorderID AS CHARACTER NO-UNDO.
-                    
-        /* The WebResponse body is a wrapper around an entire HTTP response message.
-           It contains a status code and reason; headers; cookies and a message body.
-           
-           API-level doc for this and related classes can be found at
-           https://documentation.progress.com/output/oehttpclient/      */
+        DEFINE VARIABLE cURI AS CHARACTER NO-UNDO.
+        
+        ASSIGN cURI = STRING(poRequest:URI).        
+        getorderID = poRequest:GetPathParameter("OrderID").
         ASSIGN 
             oResponse            = NEW OpenEdge.Web.WebResponse()
             oResponse:StatusCode = INTEGER(StatusCodeEnum:OK).
-        oJson = NEW JsonObject().
-        
-        
-        oJson:Add("status","success").
-        oJson:Add("message","GET received").
-        
-         
-        getorderID = poRequest:GetPathParameter("OrderID").
+        oJson = NEW JsonObject().        
         LOG-MANAGER:WRITE-MESSAGE(
-            "About to FIND CustomerOrder"
+            "Also OrderID =" + getorderID + " URL=" + STRING (poRequest:URI)
             ).
-        LOG-MANAGER:WRITE-MESSAGE(
-            "Also OrderID =" + getorderID
-            ).
+        IF cURI MATCHES "*lines" THEN DO:
+            LOG-MANAGER:WRITE-MESSAGE(
+                "There are lines! "+ " URL=" + STRING (poRequest:URI)
+                ).
+            FIND FIRST inventory.OrderLine 
+                WHERE inventory.OrderLine.OrderID = getorderID NO-LOCK NO-ERROR.
+                IF AVAILABLE inventory.OrderLine THEN
+                    DO:
+                            oJson:Add(
+                            "OrderLineID",
+                            inventory.OrderLine.OrderLineID
+                            ).
+                        oJson:Add(
+                            "OrderID",
+                            inventory.OrderLine.OrderID
+                            ).
+                        oJson:Add(
+                            "SKU",
+                            inventory.OrderLine.SKU
+                            ).
+                        oJson:Add(
+                            "Quantity",
+                            inventory.OrderLine.Quantity
+                            ).
+                    END.                
+                
 
-        oJson = NEW JsonObject().
-        getorderID = poRequest:GetPathParameter("OrderID").
-         
+        END.     
+        ELSE  
+        DO:   
         FIND FIRST inventory.CustomerOrder 
             WHERE inventory.CustomerOrder.OrderID = getorderID 
             NO-LOCK NO-ERROR.
@@ -122,23 +135,18 @@ CLASS APIHandler INHERITS WebHandler:
                 "CreatedAt",
                 STRING(inventory.CustomerOrder.CreatedAt)
                 ).
-        END.
+        END.     
+        END.           
         oResponse:StatusCode = 200.
         oResponse:ContentType = "application/json".
-        oResponse:Entity = oJson.
-        /* The WebResponseWriter ensures that the status line and
-           all headers are writted out before the message body/entity. */
+        oResponse:Entity = oJson.        
         ASSIGN 
             oWriter = NEW WebResponseWriter(oResponse).
         oWriter:Open().       
-        /* Finish writing the response message */
+        
         oWriter:Close().
         
-        /* A response of 0 means that this handler will build the entire response;
-           a non-zero value is mapped to a static handler in the webapp's /static/error folder.
-           The mappings are maintained in the webapps's WEB-INF/web.xml 
-           A predefined set of HTTP status codes is provided in the OpenEdge.Net.HTTP.StatusCodeEnum 
-           enumeration */
+        
         RETURN 0.
 		
     END METHOD. 
