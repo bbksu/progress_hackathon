@@ -77,7 +77,8 @@ METHOD OVERRIDE PROTECTED INTEGER HandleGet( INPUT poRequest AS OpenEdge.Web.IWe
         oResponse:StatusCode = INTEGER(StatusCodeEnum:OK).
     oJson = NEW JsonObject().   
     
-
+    ASSIGN 
+        cURI = STRING(poRequest:URI).
     getPurchaseOrderID =
         poRequest:GetPathParameter("PurchaseOrderID").
 
