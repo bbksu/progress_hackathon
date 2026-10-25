@@ -1,0 +1,1192 @@
+
+                Fri Oct 23 23:12:11 2026
+[2026/10/23@23:12:11.230+0200] P-20992      T-16960 I DBUTIL   : (451)   prostrct create session begin for temp on CON:. 
+[2026/10/23@23:12:11.233+0200] P-20992      T-16960 I DBUTIL   : (12862) Structure file inventory.st used to create database with blocksize 4096. 
+[2026/10/23@23:12:11.237+0200] P-20992      T-16960 I DBUTIL   : (334)   prostrct create session end. 
+[2026/10/23@23:12:11.267+0200] P-20992      T-16960 I DBUTIL   : (451)   procopy session begin for temp on CON:. 
+[2026/10/23@23:12:11.312+0200] P-20992      T-16960 I DBUTIL   : (334)   procopy session end. 
+
+                Fri Oct 23 23:12:11 2026
+[2026/10/23@23:12:11.346+0200] P-20992      T-16960 I DBUTIL   : (451)   procopy get default SQL DBA session begin for temp on CON:. 
+[2026/10/23@23:12:11.346+0200] P-20992      T-16960 I DBUTIL   : (15321) Before Image Log Initialization at block 0  offset 0. 
+[2026/10/23@23:12:11.392+0200] P-20992      T-16960 I DBUTIL   : (14867) Procopy -newinstance Created a new database GUID. 
+[2026/10/23@23:12:11.398+0200] P-20992      T-16960 I DBUTIL   : (15109) At Database close the number of live transactions is 0. 
+[2026/10/23@23:12:11.398+0200] P-20992      T-16960 I DBUTIL   : (15743) Before Image Log Completion at Block 0 Offset 2609. 
+[2026/10/23@23:12:11.401+0200] P-20992      T-16960 I DBUTIL   : (334)   procopy get default SQL DBA session end. 
+
+                Fri Oct 23 23:14:12 2026
+[2026/10/23@23:14:12.907+0200] P-8888       T-9764  I BROKER  0: (333)   Multi-user session begin. 
+[2026/10/23@23:14:12.909+0200] P-8888       T-9764  I BROKER  0: (15321) Before Image Log Initialization at block 0  offset 2609. 
+[2026/10/23@23:14:12.917+0200] P-8888       T-9764  I BROKER  0: (452)   Login by temp on CON:. 
+[2026/10/23@23:14:12.919+0200] P-8888       T-9764  I BROKER  0: (4393)  This server is licensed for local logins only. 
+[2026/10/23@23:14:12.931+0200] P-8888       T-9764  I BROKER  0: (5644)  Started for 10000 using TCP IPV4 address 127.0.0.1, pid 8888. 
+[2026/10/23@23:14:12.932+0200] P-8888       T-9764  I BROKER  0: (19117) This installation is licensed to:  by D:\Progress\OpenEdge\progress.cfg 
+[2026/10/23@23:14:12.933+0200] P-8888       T-9764  I BROKER  0: (19116) Product: Progress Dev Studio OE installed with serial number: 6077521 expiration: None. 
+[2026/10/23@23:14:12.933+0200] P-8888       T-9764  I BROKER  0: (4234)  Progress OpenEdge Release 12.8 build 1207 on WINNT . 
+[2026/10/23@23:14:12.934+0200] P-8888       T-9764  I BROKER  0: (19552) Broker with server num 0 logged in. 
+[2026/10/23@23:14:12.934+0200] P-8888       T-9764  I BROKER  0: (4281)  Server started by temp on CON:. 
+[2026/10/23@23:14:12.935+0200] P-8888       T-9764  I BROKER  0: (6574)  Started using pid: 8888. 
+[2026/10/23@23:14:12.935+0200] P-8888       T-9764  I BROKER  0: (9426)  Large database file access has been enabled. 
+[2026/10/23@23:14:12.936+0200] P-8888       T-9764  I BROKER  0: (15219) Encryption enabled: 0 
+[2026/10/23@23:14:12.937+0200] P-8888       T-9764  I BROKER  0: (15824) Multi-tenancy enabled: 0 
+[2026/10/23@23:14:12.937+0200] P-8888       T-9764  I BROKER  0: (15824) Table Partitioning enabled: 0 
+[2026/10/23@23:14:12.937+0200] P-8888       T-9764  I BROKER  0: (15824) Authentication Gateway enabled: 0 
+[2026/10/23@23:14:12.938+0200] P-8888       T-9764  I BROKER  0: (9336)  Created shared memory with segment_id: 1 
+[2026/10/23@23:14:12.938+0200] P-8888       T-9764  I BROKER  0: (4250)  Before-Image Cluster Size: 524288 
+[2026/10/23@23:14:12.938+0200] P-8888       T-9764  I BROKER  0: (4251)  Before-Image Block Size: 8192 
+[2026/10/23@23:14:12.939+0200] P-8888       T-9764  I BROKER  0: (4255)  After-Image Block Size: 8192. 
+[2026/10/23@23:14:12.939+0200] P-8888       T-9764  I BROKER  0: (20665) Database Code Page: iso8859-1. 
+[2026/10/23@23:14:12.939+0200] P-8888       T-9764  I BROKER  0: (20666) Database Collation: basic. 
+[2026/10/23@23:14:12.939+0200] P-8888       T-9764  I BROKER  0: (20667) Word-rule File Number: 0. 
+[2026/10/23@23:14:12.940+0200] P-8888       T-9764  I BROKER  0: (20668) Word-rule File CRC: 0. 
+[2026/10/23@23:14:12.941+0200] P-8888       T-9764  I BROKER  0: (13873) After-image Management Archival Directory List (-aiarcdir): Not Enabled 
+[2026/10/23@23:14:12.941+0200] P-8888       T-9764  I BROKER  0: (13874) Create After-image Management Archival Directory(s) (-aiarcdircreate): Not Enabled 
+[2026/10/23@23:14:12.942+0200] P-8888       T-9764  I BROKER  0: (13872) After-image Management Archival Interval (-aiarcinterval): -1 
+[2026/10/23@23:14:12.942+0200] P-8888       T-9764  I BROKER  0: (4256)  Number of After-Image Buffers (-aibufs): 64 
+[2026/10/23@23:14:12.942+0200] P-8888       T-9764  I BROKER  0: (4254)  After-Image Stall (-aistall): Not Enabled 
+[2026/10/23@23:14:12.943+0200] P-8888       T-9764  I BROKER  0: (17555) Starting index number for statistics range (-baseindex): 1 
+[2026/10/23@23:14:12.943+0200] P-8888       T-9764  I BROKER  0: (19091) Starting LOB number for statistics range (-baselob): 1 
+[2026/10/23@23:14:12.943+0200] P-8888       T-9764  I BROKER  0: (17554) Starting table number for statistics range (-basetable): 1 
+[2026/10/23@23:14:12.944+0200] P-8888       T-9764  I BROKER  0: (18406) Starting index number per user for statistics range (-baseuserindex): 1 
+[2026/10/23@23:14:12.945+0200] P-8888       T-9764  I BROKER  0: (19092) Starting LOB number per user for statistics range (-baseuserlob): 1 
+[2026/10/23@23:14:12.945+0200] P-8888       T-9764  I BROKER  0: (18404) Starting table number per user for statistics range (-baseusertable): 1 
+[2026/10/23@23:14:12.945+0200] P-8888       T-9764  I BROKER  0: (4252)  Number of Before-Image Buffers (-bibufs): 64 
+[2026/10/23@23:14:12.945+0200] P-8888       T-9764  I BROKER  0: (20052) BI Scan Time (-biscantime): 10 seconds 
+[2026/10/23@23:14:12.946+0200] P-8888       T-9764  I BROKER  0: (6552)  BI File Threshold Stall (-bistall): Disabled 
+[2026/10/23@23:14:12.947+0200] P-8888       T-9764  I BROKER  0: (9238)  BI File Threshold size (-bithold): 0.0   Bytes 
+[2026/10/23@23:14:12.947+0200] P-8888       T-9764  I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2026/10/23@23:14:12.947+0200] P-8888       T-9764  I BROKER  0: (12812) BIW writer delay (-bwdelay): 30 
+[2026/10/23@23:14:12.948+0200] P-8888       T-9764  I BROKER  0: (12813) Allowed index cursors (-c): 84 
+[2026/10/23@23:14:12.948+0200] P-8888       T-9764  I BROKER  0: (18495) CDC cache size (-cdcsize): 200k bytes 
+[2026/10/23@23:14:12.949+0200] P-8888       T-9764  I BROKER  0: (12265) SSL Certificate Store Path (-certstorepath): Not Enabled 
+[2026/10/23@23:14:12.949+0200] P-8888       T-9764  I BROKER  0: (20643) Client Database-Request Statement Caching directory (-clstmtcachedir): Not Enabled 
+[2026/10/23@23:14:12.950+0200] P-8888       T-9764  I BROKER  0: (4264)  Character Set (-cpinternal): ISO8859-1 
+[2026/10/23@23:14:12.950+0200] P-8888       T-9764  I BROKER  0: (19442) C stack print option (-cstackPrintopt): 0 
+[2026/10/23@23:14:12.950+0200] P-8888       T-9764  I BROKER  0: (4235)  Physical Database Name (-db): inventory 
+[2026/10/23@23:14:12.951+0200] P-8888       T-9764  I BROKER  0: (19519) Number of DB Notification Operations (-dbnotifyops): 16 
+[2026/10/23@23:14:12.951+0200] P-8888       T-9764  I BROKER  0: (19511) DB Notification Time (-dbnotifytime): 30 seconds 
+[2026/10/23@23:14:12.952+0200] P-8888       T-9764  I BROKER  0: (18558) Diagnostic directory (-diagDir): Not Enabled 
+[2026/10/23@23:14:12.952+0200] P-8888       T-9764  I BROKER  0: (18576) Diagnostic events value (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2026/10/23@23:14:12.952+0200] P-8888       T-9764  I BROKER  0: (18560) Diagnostic event level (-diagEvtLevel): 0 
+[2026/10/23@23:14:12.952+0200] P-8888       T-9764  I BROKER  0: (18561) Diagnostic field separator (-diagFS): ' ' 
+[2026/10/23@23:14:12.953+0200] P-8888       T-9764  I BROKER  0: (18579) Diagnostic data format (-diagFormat): csv 
+[2026/10/23@23:14:12.953+0200] P-8888       T-9764  I BROKER  0: (18562) Diagnostic pause length (-diagPause): 0 
+[2026/10/23@23:14:12.953+0200] P-8888       T-9764  I BROKER  0: (18563) Diagnostic prefix value (-diagPrefix): diagEvent_ 
+[2026/10/23@23:14:12.954+0200] P-8888       T-9764  I BROKER  0: (18580) Diagnostic procedure (-diagProc): Not Enabled 
+[2026/10/23@23:14:12.954+0200] P-8888       T-9764  I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled 
+[2026/10/23@23:14:12.954+0200] P-8888       T-9764  I BROKER  0: (4236)  Database Type (-dt): PROGRESS 
+[2026/10/23@23:14:12.954+0200] P-8888       T-9764  I BROKER  0: (15218) Encryption cache size (-ecsize): 1000 
+[2026/10/23@23:14:12.955+0200] P-8888       T-9764  I BROKER  0: (12814) Group delay (-groupdelay): 10 
+[2026/10/23@23:14:12.955+0200] P-8888       T-9764  I BROKER  0: (4242)  Hash Table Entries (-hash): 887 
+[2026/10/23@23:14:12.955+0200] P-8888       T-9764  I BROKER  0: (19195) Buffer pool hash table latch percentage (-hashLatchFactor): 10 
+[2026/10/23@23:14:12.956+0200] P-8888       T-9764  I BROKER  0: (20436) Allow hostname alias or specific IP address for the -H parameter (-hostnameAliasing): Not Enabled 
+[2026/10/23@23:14:12.956+0200] P-8888       T-9764  I BROKER  0: (4244)  Crash Recovery (-i): Enabled 
+[2026/10/23@23:14:12.957+0200] P-8888       T-9764  I BROKER  0: (17557) Number of indexes included in statistics collection (-indexrangesize): 50 
+[2026/10/23@23:14:12.957+0200] P-8888       T-9764  I BROKER  0: (14268) TCP/IP Version (-ipver): IPV4 
+[2026/10/23@23:14:12.958+0200] P-8888       T-9764  I BROKER  0: (12263) SSL Key Alias Name (-keyalias): Not Enabled 
+[2026/10/23@23:14:12.958+0200] P-8888       T-9764  I BROKER  0: (19216) Database log file archive directory (-lgArchiveDir): Not Enabled 
+[2026/10/23@23:14:12.958+0200] P-8888       T-9764  I BROKER  0: (19215) Archive database log file before truncation (-lgArchiveEnable): Not Enabled 
+[2026/10/23@23:14:12.958+0200] P-8888       T-9764  I BROKER  0: (19213) Frequency of database log file truncation (-lgTruncateFrequency): -1 
+[2026/10/23@23:14:12.959+0200] P-8888       T-9764  I BROKER  0: (19214) The maximum size the database log file can grow before truncation (-lgTruncateSize): 0MB 
+[2026/10/23@23:14:12.959+0200] P-8888       T-9764  I BROKER  0: (19212) Time of day for the database log file truncation (-lgTruncateTime): 00:00 
+[2026/10/23@23:14:12.959+0200] P-8888       T-9764  I BROKER  0: (19137) Limit .lg file payload (-limitLgPayload): Not Enabled 
+[2026/10/23@23:14:12.960+0200] P-8888       T-9764  I BROKER  0: (12815) Lock table hash table size (-lkhash): 1237 
+[2026/10/23@23:14:12.960+0200] P-8888       T-9764  I BROKER  0: (17805) Original Lock Release Algorithm (-lkrela): Not Enabled 
+[2026/10/23@23:14:12.961+0200] P-8888       T-9764  I BROKER  0: (19090) Number of LOBs included in statistics collection (-lobrangesize): 50 
+[2026/10/23@23:14:12.961+0200] P-8888       T-9764  I BROKER  0: (17560) Number of LRU force skips (-lruskips): 100 
+[2026/10/23@23:14:12.961+0200] P-8888       T-9764  I BROKER  0: (17561) Number of LRU2 force skips (-lru2skips): 0 
+[2026/10/23@23:14:12.962+0200] P-8888       T-9764  I BROKER  0: (13953) Maximum Area Number (-maxArea): 32000 
+[2026/10/23@23:14:12.962+0200] P-8888       T-9764  I BROKER  0: (5649)  Maximum Port for Auto Servers (-maxport): 5000 
+[2026/10/23@23:14:12.963+0200] P-8888       T-9764  I BROKER  0: (12540) Size of JTA transaction table (-maxxids): 100 
+[2026/10/23@23:14:12.963+0200] P-8888       T-9764  I BROKER  0: (5648)  Minimum Port for Auto Servers (-minport): 3000 
+[2026/10/23@23:14:12.963+0200] P-8888       T-9764  I BROKER  0: (17564) Multi-tenancy partition cache size (-mtpmsize): 1024 
+[2026/10/23@23:14:12.964+0200] P-8888       T-9764  I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2026/10/23@23:14:12.964+0200] P-8888       T-9764  I BROKER  0: (4260)  Maximum Number of Users (-n): 21 
+[2026/10/23@23:14:12.964+0200] P-8888       T-9764  I BROKER  0: (17566) Minimum time to nap at first -spin exhaustion (-nap): 10 
+[2026/10/23@23:14:12.964+0200] P-8888       T-9764  I BROKER  0: (17565) Maximum time to nap at -spin exhaustion (-napmax): 250 
+[2026/10/23@23:14:12.964+0200] P-8888       T-9764  I BROKER  0: (18522) SSL No Host Verify (-nohostverify): Not Enabled 
+[2026/10/23@23:14:12.965+0200] P-8888       T-9764  I BROKER  0: (12273) SSL No Session Cache (-nosessioncache): Not Enabled 
+[2026/10/23@23:14:12.965+0200] P-8888       T-9764  I BROKER  0: (18521) SSL No Session Reuse (-nosessionreuse): Not Enabled 
+[2026/10/23@23:14:12.965+0200] P-8888       T-9764  I BROKER  0: (16689) Login Governor (-nGovernor): 0 of 32000 
+[2026/10/23@23:14:12.966+0200] P-8888       T-9764  I BROKER  0: (18398) Number of checkpoint statistics to record (-numCheckpointStats): 32 
+[2026/10/23@23:14:12.966+0200] P-8888       T-9764  I BROKER  0: (19122) Omit .lg file messages (-omitLgMsgs):  
+[2026/10/23@23:14:12.967+0200] P-8888       T-9764  I BROKER  0: (8527)  Storage object cache size (-omsize): 1024 
+[2026/10/23@23:14:12.967+0200] P-8888       T-9764  I BROKER  0: (20842) Database startup parameter file (-pf): Not Enabled 
+[2026/10/23@23:14:12.968+0200] P-8888       T-9764  I BROKER  0: (13870) Database Service Manager - IPC Queue Size (-pica): 128.0 KBytes 
+[2026/10/23@23:14:12.968+0200] P-8888       T-9764  I BROKER  0: (19347) Maximum nap time when blocked to access PICA queue (-picanap): 1 ms. 
+[2026/10/23@23:14:12.968+0200] P-8888       T-9764  I BROKER  0: (17802) Shared memory segments locked (-pinshm): Not Enabled 
+[2026/10/23@23:14:12.969+0200] P-8888       T-9764  I BROKER  0: (16953) Use pollset mechanism for client/server (-pollset): Not Enabled 
+[2026/10/23@23:14:12.969+0200] P-8888       T-9764  I BROKER  0: (16955) Delay first prefetch message (-prefetchDelay): Enabled 
+[2026/10/23@23:14:12.969+0200] P-8888       T-9764  I BROKER  0: (16956) Prefetch message fill percentage (-prefetchFactor): 100 
+[2026/10/23@23:14:12.970+0200] P-8888       T-9764  I BROKER  0: (16957) Minimum records in prefetch msg (-prefetchNumRecs): 64 
+[2026/10/23@23:14:12.970+0200] P-8888       T-9764  I BROKER  0: (16958) Suspension queue poll priority (-prefetchPriority): 1 
+[2026/10/23@23:14:12.970+0200] P-8888       T-9764  I BROKER  0: (17568) APW queue scan cycle time in milliseconds (-pwqdelay): 100 
+[2026/10/23@23:14:12.970+0200] P-8888       T-9764  I BROKER  0: (17569) APW minimum queue length before write (-pwqmin): 1 
+[2026/10/23@23:14:12.971+0200] P-8888       T-9764  I BROKER  0: (17570) APW buffer scan cycle time in seconds (-pwsdelay): 1 
+[2026/10/23@23:14:12.971+0200] P-8888       T-9764  I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2026/10/23@23:14:12.971+0200] P-8888       T-9764  I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2026/10/23@23:14:12.971+0200] P-8888       T-9764  I BROKER  0: (4247)  Before-Image File I/O (-r -R): Reliable 
+[2026/10/23@23:14:12.972+0200] P-8888       T-9764  I BROKER  0: (17563) Record free chain search depth factor (-recspacesearchdepth): 5 
+[2026/10/23@23:14:12.972+0200] P-8888       T-9764  I BROKER  0: (19133) Schema Lock Wait Queue (-schlockwq): Not Enabled 
+[2026/10/23@23:14:12.972+0200] P-8888       T-9764  I BROKER  0: (18478) Security cache size (-secsize): 512 
+[2026/10/23@23:14:12.972+0200] P-8888       T-9764  I BROKER  0: (6526)  Number of Semaphore Sets (-semsets): 3 
+[2026/10/23@23:14:12.973+0200] P-8888       T-9764  I BROKER  0: (12264) SSL Session Timeout (-sessiontimeout): 0 
+[2026/10/23@23:14:12.973+0200] P-8888       T-9764  I BROKER  0: (13924) Maximum Shared Memory Segment Size (-shmsegsize): 1024 Mb 
+[2026/10/23@23:14:12.973+0200] P-8888       T-9764  I BROKER  0: (4243)  Current Spin Lock Tries (-spin): 1 
+[2026/10/23@23:14:12.973+0200] P-8888       T-9764  I BROKER  0: (17803) SSL Encryption for TCP/IP connections (-ssl): Not Enabled 
+[2026/10/23@23:14:12.974+0200] P-8888       T-9764  I BROKER  0: (19329) Database server side join support (-ssj): Not Enabled 
+[2026/10/23@23:14:12.974+0200] P-8888       T-9764  I BROKER  0: (20402) STS Socket Reuse (-stsSocketReuse): Yes 
+[2026/10/23@23:14:12.974+0200] P-8888       T-9764  I BROKER  0: (18525) STS Debug Logging Level default (-stslogginglevel): 0 
+[2026/10/23@23:14:12.974+0200] P-8888       T-9764  I BROKER  0: (17556) Number of tables included in statistics collection (-tablerangesize): 50 
+[2026/10/23@23:14:12.975+0200] P-8888       T-9764  I BROKER  0: (19151) Threaded database server (-threadedServer): Not Enabled 
+[2026/10/23@23:14:12.975+0200] P-8888       T-9764  I BROKER  0: (19159) Thread stack size for threaded database servers (-threadedServerStack): 512Kb 
+[2026/10/23@23:14:12.975+0200] P-8888       T-9764  I BROKER  0: (18407) Number of indexes per user included in statistics collection (-userindexrangesize): 50 
+[2026/10/23@23:14:12.976+0200] P-8888       T-9764  I BROKER  0: (19089) Number of lobs per user included in statistics collection (-userlobrangesize): 50 
+[2026/10/23@23:14:12.976+0200] P-8888       T-9764  I BROKER  0: (18118) User Notification Time (-usernotifytime): 600 seconds 
+[2026/10/23@23:14:12.976+0200] P-8888       T-9764  I BROKER  0: (18405) Number of tables per user included in statistics collection (-usertablerangesize): 50 
+[2026/10/23@23:14:12.977+0200] P-8888       T-9764  I BROKER  0: (14017) Area block consistency check in area "" (-AreaCheck): Not Enabled 
+[2026/10/23@23:14:12.977+0200] P-8888       T-9764  I BROKER  0: (4239)  Number of Database Buffers (-B): 3000 
+[2026/10/23@23:14:12.978+0200] P-8888       T-9764  I BROKER  0: (17562) Number of Alternate Database Buffers (-B2): 0 
+[2026/10/23@23:14:12.978+0200] P-8888       T-9764  I BROKER  0: (9422)  Maximum private buffers per user (-Bpmax): 64 
+[2026/10/23@23:14:12.978+0200] P-8888       T-9764  I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2026/10/23@23:14:12.978+0200] P-8888       T-9764  I BROKER  0: (13869) Database Service Manager - Service(s) to start (-DBService): Not Enabled 
+[2026/10/23@23:14:12.979+0200] P-8888       T-9764  I BROKER  0: (10535) Enhanced Read-Only mode (-ERO): Not Enabled 
+[2026/10/23@23:14:12.979+0200] P-8888       T-9764  I BROKER  0: (4237)  Force Access (-F): Not Enabled 
+[2026/10/23@23:14:12.979+0200] P-8888       T-9764  I BROKER  0: (4249)  Before-Image Truncate Interval (-G): 0 
+[2026/10/23@23:14:12.980+0200] P-8888       T-9764  I BROKER  0: (4261)  Host Name (-H): DESKTOP-09IDAPF 
+[2026/10/23@23:14:12.980+0200] P-8888       T-9764  I BROKER  0: (14018) Index block consistency check in index "", partitionID -32767(-IndexCheck): Not Enabled 
+[2026/10/23@23:14:12.981+0200] P-8888       T-9764  I BROKER  0: (4241)  Current Size of Lock Table (-L): 8192 
+[2026/10/23@23:14:12.981+0200] P-8888       T-9764  I BROKER  0: (16688) Lock Governor (-LGovernor): 0% 
+[2026/10/23@23:14:12.981+0200] P-8888       T-9764  I BROKER  0: (4257)  Maximum Number of Clients Per Server (-Ma): 5 
+[2026/10/23@23:14:12.981+0200] P-8888       T-9764  I BROKER  0: (14015) Memory overwrite check (-MemCheck): Not Enabled 
+[2026/10/23@23:14:12.982+0200] P-8888       T-9764  I BROKER  0: (4245)  Delay of Before-Image Flush (-Mf): 3 
+[2026/10/23@23:14:12.982+0200] P-8888       T-9764  I BROKER  0: (4259)  Minimum Clients Per Server (-Mi): 1 
+[2026/10/23@23:14:12.982+0200] P-8888       T-9764  I BROKER  0: (12818) Message Buffer Size (-Mm): 8192 
+[2026/10/23@23:14:12.982+0200] P-8888       T-9764  I BROKER  0: (4258)  Maximum Number of Servers (-Mn): 5 
+[2026/10/23@23:14:12.983+0200] P-8888       T-9764  I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2026/10/23@23:14:12.983+0200] P-8888       T-9764  I BROKER  0: (5647)  Maximum Servers Per Broker (-Mpb): 0 
+[2026/10/23@23:14:12.983+0200] P-8888       T-9764  I BROKER  0: (4240)  Excess Shared Memory Size (-Mxs): 39 
+[2026/10/23@23:14:12.983+0200] P-8888       T-9764  I BROKER  0: (4263)  Network Type (-N): TCP 
+[2026/10/23@23:14:12.984+0200] P-8888       T-9764  I BROKER  0: (16954) Server network message wait time (-Nmsgwait): 2 
+[2026/10/23@23:14:12.984+0200] P-8888       T-9764  I BROKER  0: (10357) Pending client connection timeout (-PendConnTime): 0 
+[2026/10/23@23:14:12.985+0200] P-8888       T-9764  I BROKER  0: (4262)  Service Name (-S): 10000 
+[2026/10/23@23:14:12.985+0200] P-8888       T-9764  I BROKER  0: (17804) Broker server group support (-ServerType): BOTH 
+[2026/10/23@23:14:12.985+0200] P-8888       T-9764  I BROKER  0: (19342) SQL Autonomous Update Statistics (-SQLAutoStats): OFF 
+[2026/10/23@23:14:12.986+0200] P-8888       T-9764  I BROKER  0: (10028) SQL Server Max Open Cursors (-SQLCursors): 50 
+[2026/10/23@23:14:12.986+0200] P-8888       T-9764  I BROKER  0: (20037) SQL Enable Core Generation (-SQLEnableCoreGeneration): OFF 
+[2026/10/23@23:14:12.986+0200] P-8888       T-9764  I BROKER  0: (20038) SQL Failure Driven Log (-SQLFailureDrivenLog): OFF 
+[2026/10/23@23:14:12.987+0200] P-8888       T-9764  I BROKER  0: (17567) Number of seconds for a SQL client to wait for a lock conflict to be resolved (-SQLLockWaitTimeout): 5. 
+[2026/10/23@23:14:12.987+0200] P-8888       T-9764  I BROKER  0: (19134) SQL rowid identifier (-SQLQuotedRowid): Standard 
+[2026/10/23@23:14:12.987+0200] P-8888       T-9764  I BROKER  0: (10026) SQL Server Stack Size (-SQLStack): 1000 
+[2026/10/23@23:14:12.987+0200] P-8888       T-9764  I BROKER  0: (10027) SQL Server Statement Cache Size (-SQLStmtCache): 100 
+[2026/10/23@23:14:12.988+0200] P-8888       T-9764  I BROKER  0: (10029) Size [1K byte units] of SQL Server temp table buffer (-SQLTempBuff): 1000 
+[2026/10/23@23:14:12.988+0200] P-8888       T-9764  I BROKER  0: (10030) Size [1K byte units] of SQL Server temp table disk storage (-SQLTempDisk): 500000 
+[2026/10/23@23:14:12.988+0200] P-8888       T-9764  I BROKER  0: (10031) Size [1K byte units] of SQL Server temp table data page (-SQLTempPgSize): 8 
+[2026/10/23@23:14:12.988+0200] P-8888       T-9764  I BROKER  0: (17955) Authorized data truncation (-SQLTruncateTooLarge): OFF 
+[2026/10/23@23:14:12.989+0200] P-8888       T-9764  I BROKER  0: (18156) SQL Autonomous Schema Update (-SQLWidthUpdate): OFF 
+[2026/10/23@23:14:12.989+0200] P-8888       T-9764  I BROKER  0: (14019) Record block consistency check in table "", partitionID -32767(-TableCheck): Not Enabled 
+[2026/10/23@23:14:12.989+0200] P-8888       T-9764  I BROKER  0: (17717) TXE Lock retry limit (-TXERetryLimit): 0 
+[2026/10/23@23:14:12.989+0200] P-8888       T-9764  I BROKER  0: (13896) TXE Commit lock skip limit (-TXESkipLimit): 10000 
+[2026/10/23@23:14:12.991+0200] P-8888       T-9764  I BROKER  0: (10836) Database connections are not allowed at this time. 
+[2026/10/23@23:14:12.991+0200] P-8888       T-9764  I BROKER  0: (10471) Database connections have been enabled. 
+[2026/10/23@23:15:43.477+0200] P-19772      T-7492  I SRV     1: (452)   Login by temp on CON:. 
+[2026/10/23@23:15:43.506+0200] P-19772      T-7492  I SRV     1: (19552) Server with server num 1 logged in. 
+[2026/10/23@23:15:43.506+0200] P-19772      T-7492  I SRV     1: (5646)  Started on port 3000 using TCP IPV4 address 127.0.0.1, pid 19772. 
+[2026/10/23@23:15:44.380+0200] P-19772      T-7492  I SRV     1: (742)   Login usernum 2, userid temp client type ABL , on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1. 
+[2026/10/23@23:15:44.380+0200] P-19772      T-7492  I SRV     1: (7129)  Usr 2 set name to temp. 
+[2026/10/23@23:15:44.381+0200] P-19772      T-7492  I SRV     1: (17961) User 2 set tty to DESKTOP-09IDAPF. 
+[2026/10/23@23:15:44.401+0200] P-19772      T-7492  I SRV     1: (7129)  Usr 2 set name to temp. 
+[2026/10/23@23:15:44.418+0200] P-19772      T-7492  I SRV     1: (739)   Logout usernum 2, userid temp, on DESKTOP-09IDAPF. 
+[2026/10/23@23:19:31.447+0200] P-15816      T-19956 I SQLSRV2 2: (19262) SQL Server 12.8.00 started, configuration: "inventory.virtualconfig" 
+[2026/10/23@23:19:31.457+0200] P-15816      T-19956 I SQLSRV2 2: (19552) SQL Server with server num 2 logged in.
+[2026/10/23@23:19:31.457+0200] P-15816      T-19956 I SQLSRV2 2: (19265) "inventory" started on IPv4 port 3001 for address 127.0.0.1, pid 15816 (0x00003dc8).
+[2026/10/23@23:19:31.457+0200] P-15816      T-19956 I SQLSRV2 2: (19263) Thread stack size:  1024000  (bytes).
+[2026/10/23@23:19:31.457+0200] P-15816      T-19956 I SQLSRV2 2: (19270) DLC from ENVIRONMENT VARIABLE is: D:\Progress\OpenEdge
+[2026/10/23@23:19:31.457+0200] P-15816      T-19956 I SQLSRV2 2: (19270) WRKDIR from ENVIRONMENT VARIABLE is: C:\OpenEdge\WRK\
+[2026/10/23@23:19:31.457+0200] P-15816      T-19956 I SQLSRV2 2: (19270) JDKHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/23@23:19:31.457+0200] P-15816      T-19956 I SQLSRV2 2: (19270) JREHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/23@23:19:31.457+0200] P-15816      T-19956 I SQLSRV2 2: (19270) CLASSPATH from DEFAULT is: 
+[2026/10/23@23:19:31.458+0200] P-15816      T-19956 I SQLSRV2 2: (19271) PROSQL_LOCKWAIT_TIMEOUT value is: 5 seconds
+[2026/10/23@23:19:31.479+0200] P-15816      T-19956 I SQLSRV2 2: (19260) server control: JVM Parameter Monitoring Service start status= 0
+[2026/10/23@23:19:31.494+0200] P-15816      T-19640 I SQLSRV2 2: (19243) sql_engine: SQL service thread for client begun
+[2026/10/23@23:19:31.494+0200] P-15816      T-19640 I SQLSRV2 2: (19288) service name: JVM Param Service : Thread 19640 is executing.
+[2026/10/23@23:19:32.215+0200] P-15816      T-6332  I SQLSRV2 2: (8873)  Login usernum 3, remote SQL client. 
+[2026/10/23@23:19:32.246+0200] P-15816      T-6332  I SQLSRV2 2: (17961) User 3 set tty to 000free:8871. 
+[2026/10/23@23:19:32.246+0200] P-15816      T-6332  I SQLSRV2 2: (7129)  Usr 3 set name to temp. 
+[2026/10/23@23:19:32.246+0200] P-15816      T-6332  I SQLSRV2 2: (19205) SQLLockWaitTimeout 5 
+[2026/10/23@23:19:32.253+0200] P-15816      T-6332  I SQLSRV2 2: (19198) Login by user 3. Using TCP/IP IPV4 address 127.0.0.1
+[2026/10/23@23:24:27.848+0200] P-15816      T-6332  I SQLSRV2 2: (19201) Logout by user 3.
+[2026/10/23@23:24:27.848+0200] P-15816      T-6332  I SQLSRV2 2: (453)   Logout by temp on 000free:8871. 
+[2026/10/23@23:25:23.761+0200] P-19772      T-7492  I SRV     1: (742)   Login usernum 3, userid temp client type ABL , on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1. 
+[2026/10/23@23:25:23.762+0200] P-19772      T-7492  I SRV     1: (7129)  Usr 3 set name to temp. 
+[2026/10/23@23:25:23.762+0200] P-19772      T-7492  I SRV     1: (17961) User 3 set tty to DESKTOP-09IDAPF. 
+[2026/10/23@23:25:23.782+0200] P-19772      T-7492  I SRV     1: (7129)  Usr 3 set name to temp. 
+[2026/10/23@23:52:12.228+0200] P-19772      T-7492  I SRV     1: (739)   Logout usernum 3, userid temp, on DESKTOP-09IDAPF. 
+[2026/10/23@23:57:21.615+0200] P-19772      T-7492  I SRV     1: (742)   Login usernum 3, userid temp client type ABL , on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1. 
+[2026/10/23@23:57:21.616+0200] P-19772      T-7492  I SRV     1: (7129)  Usr 3 set name to temp. 
+[2026/10/23@23:57:21.616+0200] P-19772      T-7492  I SRV     1: (17961) User 3 set tty to DESKTOP-09IDAPF. 
+[2026/10/23@23:57:21.633+0200] P-19772      T-7492  I SRV     1: (7129)  Usr 3 set name to temp. 
+
+                Sat Oct 24 04:07:53 2026
+[2026/10/24@04:07:53.014+0200] P-19772      T-7492  I SRV     1: (739)   Logout usernum 3, userid temp, on DESKTOP-09IDAPF. 
+
+                Sat Oct 24 04:11:15 2026
+[2026/10/24@04:11:15.182+0200] P-15192      T-6164  I ABL      : (451)   Single-user session begin for temp on CON:. 
+[2026/10/24@04:11:15.186+0200] P-15192      T-6164  I ABL      : (5326)  Begin Physical Redo Phase at 128 . 
+[2026/10/24@04:11:15.193+0200] P-15192      T-6164  I ABL      : (7161)  Physical Redo Phase Completed at blk 212 off 2956 upd 3163. 
+[2026/10/24@04:11:15.194+0200] P-15192      T-6164  I ABL      : (13547) At end of Physical redo, transaction table size is 5440. 
+[2026/10/24@04:11:15.230+0200] P-15192      T-6164  I ABL      : (7129)  Usr 0 set name to temp. 
+[2026/10/24@04:11:34.193+0200] P-15192      T-6164  I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2026/10/24@04:11:34.193+0200] P-15192      T-6164  I ABL      : (15743) Before Image Log Completion at Block 212 Offset 3008. 
+[2026/10/24@04:11:34.196+0200] P-15192      T-6164  I ABL      : (334)   Single-user session end. 
+
+                Sat Oct 24 04:43:55 2026
+[2026/10/24@04:43:55.054+0200] P-17392      T-20660 I ABL      : (451)   Single-user session begin for temp on CON:. 
+[2026/10/24@04:43:55.055+0200] P-17392      T-20660 I ABL      : (15321) Before Image Log Initialization at block 212  offset 3008. 
+[2026/10/24@04:43:55.077+0200] P-17392      T-20660 I ABL      : (7129)  Usr 0 set name to temp. 
+[2026/10/24@04:44:48.823+0200] P-17392      T-20660 I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2026/10/24@04:44:48.824+0200] P-17392      T-20660 I ABL      : (15743) Before Image Log Completion at Block 212 Offset 3060. 
+[2026/10/24@04:44:48.831+0200] P-17392      T-20660 I ABL      : (334)   Single-user session end. 
+
+                Sat Oct 24 04:46:36 2026
+[2026/10/24@04:46:36.265+0200] P-8768       T-20284 I BROKER  0: (333)   Multi-user session begin. 
+[2026/10/24@04:46:36.267+0200] P-8768       T-20284 I BROKER  0: (15321) Before Image Log Initialization at block 212  offset 3060. 
+[2026/10/24@04:46:36.277+0200] P-8768       T-20284 I BROKER  0: (452)   Login by temp on CON:. 
+[2026/10/24@04:46:36.278+0200] P-8768       T-20284 I BROKER  0: (4393)  This server is licensed for local logins only. 
+[2026/10/24@04:46:39.163+0200] P-8768       T-20284 I BROKER  0: (5193)  Unable to find host locahost in file HOSTS or HOSTS file not found in expected location. 
+[2026/10/24@04:46:39.164+0200] P-8768       T-20284 I BROKER  0: (15193) The normal shutdown of the database will continue for 10 Min 0 Sec if required. 
+[2026/10/24@04:46:39.165+0200] P-8768       T-20284 I BROKER  0: (2248)  Begin normal shutdown 
+[2026/10/24@04:46:40.166+0200] P-8768       T-20284 I BROKER  0: (2263)  Resending shutdown request to 0 user(s). 
+[2026/10/24@04:46:44.176+0200] P-8768       T-20284 I BROKER  0: (15109) At Database close the number of live transactions is 0. 
+[2026/10/24@04:46:44.177+0200] P-8768       T-20284 I BROKER  0: (15743) Before Image Log Completion at Block 212 Offset 3060. 
+[2026/10/24@04:46:44.178+0200] P-8768       T-20284 I BROKER  0: (453)   Logout by temp on CON:. 
+[2026/10/24@04:46:44.187+0200] P-8768       T-20284 I BROKER   : (16869) Removed shared memory with segment_id: 1761706704896 
+[2026/10/24@04:46:44.187+0200] P-8768       T-20284 I BROKER   : (334)   Multi-user session end. 
+
+                Sat Oct 24 04:46:50 2026
+[2026/10/24@04:46:50.062+0200] P-19408      T-11296 I BROKER  0: (333)   Multi-user session begin. 
+[2026/10/24@04:46:50.094+0200] P-19408      T-11296 I BROKER  0: (15321) Before Image Log Initialization at block 212  offset 3060. 
+[2026/10/24@04:46:50.111+0200] P-19408      T-11296 I BROKER  0: (452)   Login by temp on CON:. 
+[2026/10/24@04:46:50.173+0200] P-19408      T-11296 I BROKER  0: (4393)  This server is licensed for local logins only. 
+[2026/10/24@04:46:53.138+0200] P-19408      T-11296 I BROKER  0: (5193)  Unable to find host locahost in file HOSTS or HOSTS file not found in expected location. 
+[2026/10/24@04:46:53.139+0200] P-19408      T-11296 I BROKER  0: (15193) The normal shutdown of the database will continue for 10 Min 0 Sec if required. 
+[2026/10/24@04:46:53.139+0200] P-19408      T-11296 I BROKER  0: (2248)  Begin normal shutdown 
+[2026/10/24@04:46:54.140+0200] P-19408      T-11296 I BROKER  0: (2263)  Resending shutdown request to 0 user(s). 
+[2026/10/24@04:46:58.148+0200] P-19408      T-11296 I BROKER  0: (15109) At Database close the number of live transactions is 0. 
+[2026/10/24@04:46:58.149+0200] P-19408      T-11296 I BROKER  0: (15743) Before Image Log Completion at Block 212 Offset 3060. 
+[2026/10/24@04:46:58.151+0200] P-19408      T-11296 I BROKER  0: (453)   Logout by temp on CON:. 
+[2026/10/24@04:46:58.160+0200] P-19408      T-11296 I BROKER   : (16869) Removed shared memory with segment_id: 1611900387328 
+[2026/10/24@04:46:58.161+0200] P-19408      T-11296 I BROKER   : (334)   Multi-user session end. 
+
+                Sat Oct 24 04:50:16 2026
+[2026/10/24@04:50:16.467+0200] P-7788       T-14224 I BROKER  0: (333)   Multi-user session begin. 
+[2026/10/24@04:50:16.469+0200] P-7788       T-14224 I BROKER  0: (15321) Before Image Log Initialization at block 212  offset 3060. 
+[2026/10/24@04:50:16.477+0200] P-7788       T-14224 I BROKER  0: (452)   Login by temp on CON:. 
+[2026/10/24@04:50:16.478+0200] P-7788       T-14224 I BROKER  0: (4393)  This server is licensed for local logins only. 
+[2026/10/24@04:50:16.490+0200] P-7788       T-14224 I BROKER  0: (5644)  Started for 10000 using TCP IPV4 address 127.0.0.1, pid 7788. 
+[2026/10/24@04:50:16.491+0200] P-7788       T-14224 I BROKER  0: (19117) This installation is licensed to:  by D:\Progress\OpenEdge\progress.cfg 
+[2026/10/24@04:50:16.492+0200] P-7788       T-14224 I BROKER  0: (19116) Product: Progress Dev Studio OE installed with serial number: 6077521 expiration: None. 
+[2026/10/24@04:50:16.492+0200] P-7788       T-14224 I BROKER  0: (4234)  Progress OpenEdge Release 12.8 build 1207 on WINNT . 
+[2026/10/24@04:50:16.492+0200] P-7788       T-14224 I BROKER  0: (19552) Broker with server num 0 logged in. 
+[2026/10/24@04:50:16.492+0200] P-7788       T-14224 I BROKER  0: (4281)  Server started by temp on CON:. 
+[2026/10/24@04:50:16.493+0200] P-7788       T-14224 I BROKER  0: (6574)  Started using pid: 7788. 
+[2026/10/24@04:50:16.493+0200] P-7788       T-14224 I BROKER  0: (9426)  Large database file access has been enabled. 
+[2026/10/24@04:50:16.493+0200] P-7788       T-14224 I BROKER  0: (15219) Encryption enabled: 0 
+[2026/10/24@04:50:16.493+0200] P-7788       T-14224 I BROKER  0: (15824) Multi-tenancy enabled: 0 
+[2026/10/24@04:50:16.494+0200] P-7788       T-14224 I BROKER  0: (15824) Table Partitioning enabled: 0 
+[2026/10/24@04:50:16.494+0200] P-7788       T-14224 I BROKER  0: (15824) Authentication Gateway enabled: 0 
+[2026/10/24@04:50:16.494+0200] P-7788       T-14224 I BROKER  0: (9336)  Created shared memory with segment_id: 1 
+[2026/10/24@04:50:16.495+0200] P-7788       T-14224 I BROKER  0: (4250)  Before-Image Cluster Size: 524288 
+[2026/10/24@04:50:16.495+0200] P-7788       T-14224 I BROKER  0: (4251)  Before-Image Block Size: 8192 
+[2026/10/24@04:50:16.495+0200] P-7788       T-14224 I BROKER  0: (4255)  After-Image Block Size: 8192. 
+[2026/10/24@04:50:16.495+0200] P-7788       T-14224 I BROKER  0: (20665) Database Code Page: iso8859-1. 
+[2026/10/24@04:50:16.496+0200] P-7788       T-14224 I BROKER  0: (20666) Database Collation: basic. 
+[2026/10/24@04:50:16.496+0200] P-7788       T-14224 I BROKER  0: (20667) Word-rule File Number: 0. 
+[2026/10/24@04:50:16.496+0200] P-7788       T-14224 I BROKER  0: (20668) Word-rule File CRC: 0. 
+[2026/10/24@04:50:16.496+0200] P-7788       T-14224 I BROKER  0: (13873) After-image Management Archival Directory List (-aiarcdir): Not Enabled 
+[2026/10/24@04:50:16.497+0200] P-7788       T-14224 I BROKER  0: (13874) Create After-image Management Archival Directory(s) (-aiarcdircreate): Not Enabled 
+[2026/10/24@04:50:16.497+0200] P-7788       T-14224 I BROKER  0: (13872) After-image Management Archival Interval (-aiarcinterval): -1 
+[2026/10/24@04:50:16.497+0200] P-7788       T-14224 I BROKER  0: (4256)  Number of After-Image Buffers (-aibufs): 64 
+[2026/10/24@04:50:16.497+0200] P-7788       T-14224 I BROKER  0: (4254)  After-Image Stall (-aistall): Not Enabled 
+[2026/10/24@04:50:16.498+0200] P-7788       T-14224 I BROKER  0: (17555) Starting index number for statistics range (-baseindex): 1 
+[2026/10/24@04:50:16.498+0200] P-7788       T-14224 I BROKER  0: (19091) Starting LOB number for statistics range (-baselob): 1 
+[2026/10/24@04:50:16.498+0200] P-7788       T-14224 I BROKER  0: (17554) Starting table number for statistics range (-basetable): 1 
+[2026/10/24@04:50:16.499+0200] P-7788       T-14224 I BROKER  0: (18406) Starting index number per user for statistics range (-baseuserindex): 1 
+[2026/10/24@04:50:16.499+0200] P-7788       T-14224 I BROKER  0: (19092) Starting LOB number per user for statistics range (-baseuserlob): 1 
+[2026/10/24@04:50:16.499+0200] P-7788       T-14224 I BROKER  0: (18404) Starting table number per user for statistics range (-baseusertable): 1 
+[2026/10/24@04:50:16.499+0200] P-7788       T-14224 I BROKER  0: (4252)  Number of Before-Image Buffers (-bibufs): 64 
+[2026/10/24@04:50:16.500+0200] P-7788       T-14224 I BROKER  0: (20052) BI Scan Time (-biscantime): 10 seconds 
+[2026/10/24@04:50:16.500+0200] P-7788       T-14224 I BROKER  0: (6552)  BI File Threshold Stall (-bistall): Disabled 
+[2026/10/24@04:50:16.500+0200] P-7788       T-14224 I BROKER  0: (9238)  BI File Threshold size (-bithold): 0.0   Bytes 
+[2026/10/24@04:50:16.500+0200] P-7788       T-14224 I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2026/10/24@04:50:16.501+0200] P-7788       T-14224 I BROKER  0: (12812) BIW writer delay (-bwdelay): 30 
+[2026/10/24@04:50:16.501+0200] P-7788       T-14224 I BROKER  0: (12813) Allowed index cursors (-c): 84 
+[2026/10/24@04:50:16.501+0200] P-7788       T-14224 I BROKER  0: (18495) CDC cache size (-cdcsize): 200k bytes 
+[2026/10/24@04:50:16.501+0200] P-7788       T-14224 I BROKER  0: (12265) SSL Certificate Store Path (-certstorepath): Not Enabled 
+[2026/10/24@04:50:16.502+0200] P-7788       T-14224 I BROKER  0: (20643) Client Database-Request Statement Caching directory (-clstmtcachedir): Not Enabled 
+[2026/10/24@04:50:16.502+0200] P-7788       T-14224 I BROKER  0: (4264)  Character Set (-cpinternal): ISO8859-1 
+[2026/10/24@04:50:16.502+0200] P-7788       T-14224 I BROKER  0: (19442) C stack print option (-cstackPrintopt): 0 
+[2026/10/24@04:50:16.502+0200] P-7788       T-14224 I BROKER  0: (4235)  Physical Database Name (-db): inventory 
+[2026/10/24@04:50:16.503+0200] P-7788       T-14224 I BROKER  0: (19519) Number of DB Notification Operations (-dbnotifyops): 16 
+[2026/10/24@04:50:16.503+0200] P-7788       T-14224 I BROKER  0: (19511) DB Notification Time (-dbnotifytime): 30 seconds 
+[2026/10/24@04:50:16.503+0200] P-7788       T-14224 I BROKER  0: (18558) Diagnostic directory (-diagDir): Not Enabled 
+[2026/10/24@04:50:16.503+0200] P-7788       T-14224 I BROKER  0: (18576) Diagnostic events value (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2026/10/24@04:50:16.504+0200] P-7788       T-14224 I BROKER  0: (18560) Diagnostic event level (-diagEvtLevel): 0 
+[2026/10/24@04:50:16.504+0200] P-7788       T-14224 I BROKER  0: (18561) Diagnostic field separator (-diagFS): ' ' 
+[2026/10/24@04:50:16.504+0200] P-7788       T-14224 I BROKER  0: (18579) Diagnostic data format (-diagFormat): csv 
+[2026/10/24@04:50:16.504+0200] P-7788       T-14224 I BROKER  0: (18562) Diagnostic pause length (-diagPause): 0 
+[2026/10/24@04:50:16.504+0200] P-7788       T-14224 I BROKER  0: (18563) Diagnostic prefix value (-diagPrefix): diagEvent_ 
+[2026/10/24@04:50:16.505+0200] P-7788       T-14224 I BROKER  0: (18580) Diagnostic procedure (-diagProc): Not Enabled 
+[2026/10/24@04:50:16.505+0200] P-7788       T-14224 I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled 
+[2026/10/24@04:50:16.505+0200] P-7788       T-14224 I BROKER  0: (4236)  Database Type (-dt): PROGRESS 
+[2026/10/24@04:50:16.505+0200] P-7788       T-14224 I BROKER  0: (15218) Encryption cache size (-ecsize): 1000 
+[2026/10/24@04:50:16.506+0200] P-7788       T-14224 I BROKER  0: (12814) Group delay (-groupdelay): 10 
+[2026/10/24@04:50:16.506+0200] P-7788       T-14224 I BROKER  0: (4242)  Hash Table Entries (-hash): 887 
+[2026/10/24@04:50:16.506+0200] P-7788       T-14224 I BROKER  0: (19195) Buffer pool hash table latch percentage (-hashLatchFactor): 10 
+[2026/10/24@04:50:16.507+0200] P-7788       T-14224 I BROKER  0: (20436) Allow hostname alias or specific IP address for the -H parameter (-hostnameAliasing): Not Enabled 
+[2026/10/24@04:50:16.507+0200] P-7788       T-14224 I BROKER  0: (4244)  Crash Recovery (-i): Enabled 
+[2026/10/24@04:50:16.507+0200] P-7788       T-14224 I BROKER  0: (17557) Number of indexes included in statistics collection (-indexrangesize): 50 
+[2026/10/24@04:50:16.507+0200] P-7788       T-14224 I BROKER  0: (14268) TCP/IP Version (-ipver): IPV4 
+[2026/10/24@04:50:16.508+0200] P-7788       T-14224 I BROKER  0: (12263) SSL Key Alias Name (-keyalias): Not Enabled 
+[2026/10/24@04:50:16.508+0200] P-7788       T-14224 I BROKER  0: (19216) Database log file archive directory (-lgArchiveDir): Not Enabled 
+[2026/10/24@04:50:16.508+0200] P-7788       T-14224 I BROKER  0: (19215) Archive database log file before truncation (-lgArchiveEnable): Not Enabled 
+[2026/10/24@04:50:16.508+0200] P-7788       T-14224 I BROKER  0: (19213) Frequency of database log file truncation (-lgTruncateFrequency): -1 
+[2026/10/24@04:50:16.509+0200] P-7788       T-14224 I BROKER  0: (19214) The maximum size the database log file can grow before truncation (-lgTruncateSize): 0MB 
+[2026/10/24@04:50:16.509+0200] P-7788       T-14224 I BROKER  0: (19212) Time of day for the database log file truncation (-lgTruncateTime): 00:00 
+[2026/10/24@04:50:16.509+0200] P-7788       T-14224 I BROKER  0: (19137) Limit .lg file payload (-limitLgPayload): Not Enabled 
+[2026/10/24@04:50:16.509+0200] P-7788       T-14224 I BROKER  0: (12815) Lock table hash table size (-lkhash): 1237 
+[2026/10/24@04:50:16.510+0200] P-7788       T-14224 I BROKER  0: (17805) Original Lock Release Algorithm (-lkrela): Not Enabled 
+[2026/10/24@04:50:16.510+0200] P-7788       T-14224 I BROKER  0: (19090) Number of LOBs included in statistics collection (-lobrangesize): 50 
+[2026/10/24@04:50:16.510+0200] P-7788       T-14224 I BROKER  0: (17560) Number of LRU force skips (-lruskips): 100 
+[2026/10/24@04:50:16.510+0200] P-7788       T-14224 I BROKER  0: (17561) Number of LRU2 force skips (-lru2skips): 0 
+[2026/10/24@04:50:16.511+0200] P-7788       T-14224 I BROKER  0: (13953) Maximum Area Number (-maxArea): 32000 
+[2026/10/24@04:50:16.511+0200] P-7788       T-14224 I BROKER  0: (5649)  Maximum Port for Auto Servers (-maxport): 5000 
+[2026/10/24@04:50:16.511+0200] P-7788       T-14224 I BROKER  0: (12540) Size of JTA transaction table (-maxxids): 100 
+[2026/10/24@04:50:16.511+0200] P-7788       T-14224 I BROKER  0: (5648)  Minimum Port for Auto Servers (-minport): 3000 
+[2026/10/24@04:50:16.512+0200] P-7788       T-14224 I BROKER  0: (17564) Multi-tenancy partition cache size (-mtpmsize): 1024 
+[2026/10/24@04:50:16.512+0200] P-7788       T-14224 I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2026/10/24@04:50:16.512+0200] P-7788       T-14224 I BROKER  0: (4260)  Maximum Number of Users (-n): 21 
+[2026/10/24@04:50:16.512+0200] P-7788       T-14224 I BROKER  0: (17566) Minimum time to nap at first -spin exhaustion (-nap): 10 
+[2026/10/24@04:50:16.512+0200] P-7788       T-14224 I BROKER  0: (17565) Maximum time to nap at -spin exhaustion (-napmax): 250 
+[2026/10/24@04:50:16.513+0200] P-7788       T-14224 I BROKER  0: (18522) SSL No Host Verify (-nohostverify): Not Enabled 
+[2026/10/24@04:50:16.513+0200] P-7788       T-14224 I BROKER  0: (12273) SSL No Session Cache (-nosessioncache): Not Enabled 
+[2026/10/24@04:50:16.513+0200] P-7788       T-14224 I BROKER  0: (18521) SSL No Session Reuse (-nosessionreuse): Not Enabled 
+[2026/10/24@04:50:16.513+0200] P-7788       T-14224 I BROKER  0: (16689) Login Governor (-nGovernor): 0 of 32000 
+[2026/10/24@04:50:16.514+0200] P-7788       T-14224 I BROKER  0: (18398) Number of checkpoint statistics to record (-numCheckpointStats): 32 
+[2026/10/24@04:50:16.514+0200] P-7788       T-14224 I BROKER  0: (19122) Omit .lg file messages (-omitLgMsgs):  
+[2026/10/24@04:50:16.514+0200] P-7788       T-14224 I BROKER  0: (8527)  Storage object cache size (-omsize): 1024 
+[2026/10/24@04:50:16.514+0200] P-7788       T-14224 I BROKER  0: (20842) Database startup parameter file (-pf): Not Enabled 
+[2026/10/24@04:50:16.515+0200] P-7788       T-14224 I BROKER  0: (13870) Database Service Manager - IPC Queue Size (-pica): 128.0 KBytes 
+[2026/10/24@04:50:16.515+0200] P-7788       T-14224 I BROKER  0: (19347) Maximum nap time when blocked to access PICA queue (-picanap): 1 ms. 
+[2026/10/24@04:50:16.515+0200] P-7788       T-14224 I BROKER  0: (17802) Shared memory segments locked (-pinshm): Not Enabled 
+[2026/10/24@04:50:16.515+0200] P-7788       T-14224 I BROKER  0: (16953) Use pollset mechanism for client/server (-pollset): Not Enabled 
+[2026/10/24@04:50:16.516+0200] P-7788       T-14224 I BROKER  0: (16955) Delay first prefetch message (-prefetchDelay): Enabled 
+[2026/10/24@04:50:16.516+0200] P-7788       T-14224 I BROKER  0: (16956) Prefetch message fill percentage (-prefetchFactor): 100 
+[2026/10/24@04:50:16.516+0200] P-7788       T-14224 I BROKER  0: (16957) Minimum records in prefetch msg (-prefetchNumRecs): 64 
+[2026/10/24@04:50:16.516+0200] P-7788       T-14224 I BROKER  0: (16958) Suspension queue poll priority (-prefetchPriority): 1 
+[2026/10/24@04:50:16.516+0200] P-7788       T-14224 I BROKER  0: (17568) APW queue scan cycle time in milliseconds (-pwqdelay): 100 
+[2026/10/24@04:50:16.517+0200] P-7788       T-14224 I BROKER  0: (17569) APW minimum queue length before write (-pwqmin): 1 
+[2026/10/24@04:50:16.517+0200] P-7788       T-14224 I BROKER  0: (17570) APW buffer scan cycle time in seconds (-pwsdelay): 1 
+[2026/10/24@04:50:16.517+0200] P-7788       T-14224 I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2026/10/24@04:50:16.517+0200] P-7788       T-14224 I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2026/10/24@04:50:16.518+0200] P-7788       T-14224 I BROKER  0: (4247)  Before-Image File I/O (-r -R): Reliable 
+[2026/10/24@04:50:16.518+0200] P-7788       T-14224 I BROKER  0: (17563) Record free chain search depth factor (-recspacesearchdepth): 5 
+[2026/10/24@04:50:16.518+0200] P-7788       T-14224 I BROKER  0: (19133) Schema Lock Wait Queue (-schlockwq): Not Enabled 
+[2026/10/24@04:50:16.518+0200] P-7788       T-14224 I BROKER  0: (18478) Security cache size (-secsize): 512 
+[2026/10/24@04:50:16.519+0200] P-7788       T-14224 I BROKER  0: (6526)  Number of Semaphore Sets (-semsets): 3 
+[2026/10/24@04:50:16.519+0200] P-7788       T-14224 I BROKER  0: (12264) SSL Session Timeout (-sessiontimeout): 0 
+[2026/10/24@04:50:16.519+0200] P-7788       T-14224 I BROKER  0: (13924) Maximum Shared Memory Segment Size (-shmsegsize): 1024 Mb 
+[2026/10/24@04:50:16.519+0200] P-7788       T-14224 I BROKER  0: (4243)  Current Spin Lock Tries (-spin): 1 
+[2026/10/24@04:50:16.520+0200] P-7788       T-14224 I BROKER  0: (17803) SSL Encryption for TCP/IP connections (-ssl): Not Enabled 
+[2026/10/24@04:50:16.520+0200] P-7788       T-14224 I BROKER  0: (19329) Database server side join support (-ssj): Not Enabled 
+[2026/10/24@04:50:16.520+0200] P-7788       T-14224 I BROKER  0: (20402) STS Socket Reuse (-stsSocketReuse): Yes 
+[2026/10/24@04:50:16.520+0200] P-7788       T-14224 I BROKER  0: (18525) STS Debug Logging Level default (-stslogginglevel): 0 
+[2026/10/24@04:50:16.520+0200] P-7788       T-14224 I BROKER  0: (17556) Number of tables included in statistics collection (-tablerangesize): 50 
+[2026/10/24@04:50:16.521+0200] P-7788       T-14224 I BROKER  0: (19151) Threaded database server (-threadedServer): Not Enabled 
+[2026/10/24@04:50:16.521+0200] P-7788       T-14224 I BROKER  0: (19159) Thread stack size for threaded database servers (-threadedServerStack): 512Kb 
+[2026/10/24@04:50:16.521+0200] P-7788       T-14224 I BROKER  0: (18407) Number of indexes per user included in statistics collection (-userindexrangesize): 50 
+[2026/10/24@04:50:16.521+0200] P-7788       T-14224 I BROKER  0: (19089) Number of lobs per user included in statistics collection (-userlobrangesize): 50 
+[2026/10/24@04:50:16.522+0200] P-7788       T-14224 I BROKER  0: (18118) User Notification Time (-usernotifytime): 600 seconds 
+[2026/10/24@04:50:16.522+0200] P-7788       T-14224 I BROKER  0: (18405) Number of tables per user included in statistics collection (-usertablerangesize): 50 
+[2026/10/24@04:50:16.522+0200] P-7788       T-14224 I BROKER  0: (14017) Area block consistency check in area "" (-AreaCheck): Not Enabled 
+[2026/10/24@04:50:16.522+0200] P-7788       T-14224 I BROKER  0: (4239)  Number of Database Buffers (-B): 3000 
+[2026/10/24@04:50:16.523+0200] P-7788       T-14224 I BROKER  0: (17562) Number of Alternate Database Buffers (-B2): 0 
+[2026/10/24@04:50:16.523+0200] P-7788       T-14224 I BROKER  0: (9422)  Maximum private buffers per user (-Bpmax): 64 
+[2026/10/24@04:50:16.523+0200] P-7788       T-14224 I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2026/10/24@04:50:16.523+0200] P-7788       T-14224 I BROKER  0: (13869) Database Service Manager - Service(s) to start (-DBService): Not Enabled 
+[2026/10/24@04:50:16.524+0200] P-7788       T-14224 I BROKER  0: (10535) Enhanced Read-Only mode (-ERO): Not Enabled 
+[2026/10/24@04:50:16.524+0200] P-7788       T-14224 I BROKER  0: (4237)  Force Access (-F): Not Enabled 
+[2026/10/24@04:50:16.524+0200] P-7788       T-14224 I BROKER  0: (4249)  Before-Image Truncate Interval (-G): 0 
+[2026/10/24@04:50:16.524+0200] P-7788       T-14224 I BROKER  0: (4261)  Host Name (-H): DESKTOP-09IDAPF 
+[2026/10/24@04:50:16.525+0200] P-7788       T-14224 I BROKER  0: (14018) Index block consistency check in index "", partitionID -32767(-IndexCheck): Not Enabled 
+[2026/10/24@04:50:16.525+0200] P-7788       T-14224 I BROKER  0: (4241)  Current Size of Lock Table (-L): 8192 
+[2026/10/24@04:50:16.525+0200] P-7788       T-14224 I BROKER  0: (16688) Lock Governor (-LGovernor): 0% 
+[2026/10/24@04:50:16.525+0200] P-7788       T-14224 I BROKER  0: (4257)  Maximum Number of Clients Per Server (-Ma): 5 
+[2026/10/24@04:50:16.526+0200] P-7788       T-14224 I BROKER  0: (14015) Memory overwrite check (-MemCheck): Not Enabled 
+[2026/10/24@04:50:16.526+0200] P-7788       T-14224 I BROKER  0: (4245)  Delay of Before-Image Flush (-Mf): 3 
+[2026/10/24@04:50:16.526+0200] P-7788       T-14224 I BROKER  0: (4259)  Minimum Clients Per Server (-Mi): 1 
+[2026/10/24@04:50:16.526+0200] P-7788       T-14224 I BROKER  0: (12818) Message Buffer Size (-Mm): 8192 
+[2026/10/24@04:50:16.527+0200] P-7788       T-14224 I BROKER  0: (4258)  Maximum Number of Servers (-Mn): 5 
+[2026/10/24@04:50:16.527+0200] P-7788       T-14224 I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2026/10/24@04:50:16.527+0200] P-7788       T-14224 I BROKER  0: (5647)  Maximum Servers Per Broker (-Mpb): 0 
+[2026/10/24@04:50:16.527+0200] P-7788       T-14224 I BROKER  0: (4240)  Excess Shared Memory Size (-Mxs): 39 
+[2026/10/24@04:50:16.527+0200] P-7788       T-14224 I BROKER  0: (4263)  Network Type (-N): TCP 
+[2026/10/24@04:50:16.528+0200] P-7788       T-14224 I BROKER  0: (16954) Server network message wait time (-Nmsgwait): 2 
+[2026/10/24@04:50:16.528+0200] P-7788       T-14224 I BROKER  0: (10357) Pending client connection timeout (-PendConnTime): 0 
+[2026/10/24@04:50:16.528+0200] P-7788       T-14224 I BROKER  0: (4262)  Service Name (-S): 10000 
+[2026/10/24@04:50:16.528+0200] P-7788       T-14224 I BROKER  0: (17804) Broker server group support (-ServerType): BOTH 
+[2026/10/24@04:50:16.529+0200] P-7788       T-14224 I BROKER  0: (19342) SQL Autonomous Update Statistics (-SQLAutoStats): OFF 
+[2026/10/24@04:50:16.529+0200] P-7788       T-14224 I BROKER  0: (10028) SQL Server Max Open Cursors (-SQLCursors): 50 
+[2026/10/24@04:50:16.529+0200] P-7788       T-14224 I BROKER  0: (20037) SQL Enable Core Generation (-SQLEnableCoreGeneration): OFF 
+[2026/10/24@04:50:16.529+0200] P-7788       T-14224 I BROKER  0: (20038) SQL Failure Driven Log (-SQLFailureDrivenLog): OFF 
+[2026/10/24@04:50:16.530+0200] P-7788       T-14224 I BROKER  0: (17567) Number of seconds for a SQL client to wait for a lock conflict to be resolved (-SQLLockWaitTimeout): 5. 
+[2026/10/24@04:50:16.530+0200] P-7788       T-14224 I BROKER  0: (19134) SQL rowid identifier (-SQLQuotedRowid): Standard 
+[2026/10/24@04:50:16.530+0200] P-7788       T-14224 I BROKER  0: (10026) SQL Server Stack Size (-SQLStack): 1000 
+[2026/10/24@04:50:16.530+0200] P-7788       T-14224 I BROKER  0: (10027) SQL Server Statement Cache Size (-SQLStmtCache): 100 
+[2026/10/24@04:50:16.531+0200] P-7788       T-14224 I BROKER  0: (10029) Size [1K byte units] of SQL Server temp table buffer (-SQLTempBuff): 1000 
+[2026/10/24@04:50:16.531+0200] P-7788       T-14224 I BROKER  0: (10030) Size [1K byte units] of SQL Server temp table disk storage (-SQLTempDisk): 500000 
+[2026/10/24@04:50:16.531+0200] P-7788       T-14224 I BROKER  0: (10031) Size [1K byte units] of SQL Server temp table data page (-SQLTempPgSize): 8 
+[2026/10/24@04:50:16.531+0200] P-7788       T-14224 I BROKER  0: (17955) Authorized data truncation (-SQLTruncateTooLarge): OFF 
+[2026/10/24@04:50:16.532+0200] P-7788       T-14224 I BROKER  0: (18156) SQL Autonomous Schema Update (-SQLWidthUpdate): OFF 
+[2026/10/24@04:50:16.532+0200] P-7788       T-14224 I BROKER  0: (14019) Record block consistency check in table "", partitionID -32767(-TableCheck): Not Enabled 
+[2026/10/24@04:50:16.532+0200] P-7788       T-14224 I BROKER  0: (17717) TXE Lock retry limit (-TXERetryLimit): 0 
+[2026/10/24@04:50:16.532+0200] P-7788       T-14224 I BROKER  0: (13896) TXE Commit lock skip limit (-TXESkipLimit): 10000 
+[2026/10/24@04:50:16.533+0200] P-7788       T-14224 I BROKER  0: (10836) Database connections are not allowed at this time. 
+[2026/10/24@04:50:16.533+0200] P-7788       T-14224 I BROKER  0: (10471) Database connections have been enabled. 
+[2026/10/24@04:54:52.178+0200] P-16524      T-19668 I SQLSRV2 1: (19262) SQL Server 12.8.00 started, configuration: "inventory.virtualconfig" 
+[2026/10/24@04:54:52.192+0200] P-16524      T-19668 I SQLSRV2 1: (19552) SQL Server with server num 1 logged in.
+[2026/10/24@04:54:52.192+0200] P-16524      T-19668 I SQLSRV2 1: (19265) "inventory" started on IPv4 port 3000 for address 127.0.0.1, pid 16524 (0x0000408c).
+[2026/10/24@04:54:52.192+0200] P-16524      T-19668 I SQLSRV2 1: (19263) Thread stack size:  1024000  (bytes).
+[2026/10/24@04:54:52.192+0200] P-16524      T-19668 I SQLSRV2 1: (19270) DLC from ENVIRONMENT VARIABLE is: D:\Progress\OpenEdge
+[2026/10/24@04:54:52.192+0200] P-16524      T-19668 I SQLSRV2 1: (19270) WRKDIR from ENVIRONMENT VARIABLE is: C:\OpenEdge\WRK\
+[2026/10/24@04:54:52.192+0200] P-16524      T-19668 I SQLSRV2 1: (19270) JDKHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@04:54:52.192+0200] P-16524      T-19668 I SQLSRV2 1: (19270) JREHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@04:54:52.192+0200] P-16524      T-19668 I SQLSRV2 1: (19270) CLASSPATH from DEFAULT is: 
+[2026/10/24@04:54:52.192+0200] P-16524      T-19668 I SQLSRV2 1: (19271) PROSQL_LOCKWAIT_TIMEOUT value is: 5 seconds
+[2026/10/24@04:54:52.233+0200] P-16524      T-19668 I SQLSRV2 1: (19260) server control: JVM Parameter Monitoring Service start status= 0
+[2026/10/24@04:54:52.254+0200] P-16524      T-5084  I SQLSRV2 1: (19243) sql_engine: SQL service thread for client begun
+[2026/10/24@04:54:52.254+0200] P-16524      T-5084  I SQLSRV2 1: (19288) service name: JVM Param Service : Thread 5084 is executing.
+[2026/10/24@04:54:52.946+0200] P-16524      T-2052  I SQLSRV2 1: (8873)  Login usernum 2, remote SQL client. 
+[2026/10/24@04:54:52.975+0200] P-16524      T-2052  I SQLSRV2 1: (17961) User 2 set tty to 000free:16322. 
+[2026/10/24@04:54:52.975+0200] P-16524      T-2052  I SQLSRV2 1: (7129)  Usr 2 set name to temp. 
+[2026/10/24@04:54:52.975+0200] P-16524      T-2052  I SQLSRV2 1: (19205) SQLLockWaitTimeout 5 
+[2026/10/24@04:54:52.979+0200] P-16524      T-2052  I SQLSRV2 1: (19198) Login by user 2. Using TCP/IP IPV4 address 127.0.0.1
+[2026/10/24@04:55:42.192+0200] P-4032       T-18176 I SQLSRV2 3: (19262) SQL Server 12.8.00 started, configuration: "inventory.virtualconfig" 
+[2026/10/24@04:55:42.203+0200] P-4032       T-18176 I SQLSRV2 3: (19552) SQL Server with server num 2 logged in.
+[2026/10/24@04:55:42.203+0200] P-4032       T-18176 I SQLSRV2 3: (19265) "inventory" started on IPv4 port 3001 for address 127.0.0.1, pid 4032 (0x00000fc0).
+[2026/10/24@04:55:42.203+0200] P-4032       T-18176 I SQLSRV2 3: (19263) Thread stack size:  1024000  (bytes).
+[2026/10/24@04:55:42.203+0200] P-4032       T-18176 I SQLSRV2 3: (19270) DLC from ENVIRONMENT VARIABLE is: D:\Progress\OpenEdge
+[2026/10/24@04:55:42.203+0200] P-4032       T-18176 I SQLSRV2 3: (19270) WRKDIR from ENVIRONMENT VARIABLE is: C:\OpenEdge\WRK\
+[2026/10/24@04:55:42.203+0200] P-4032       T-18176 I SQLSRV2 3: (19270) JDKHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@04:55:42.203+0200] P-4032       T-18176 I SQLSRV2 3: (19270) JREHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@04:55:42.203+0200] P-4032       T-18176 I SQLSRV2 3: (19270) CLASSPATH from DEFAULT is: 
+[2026/10/24@04:55:42.203+0200] P-4032       T-18176 I SQLSRV2 3: (19271) PROSQL_LOCKWAIT_TIMEOUT value is: 5 seconds
+[2026/10/24@04:55:42.223+0200] P-4032       T-18176 I SQLSRV2 3: (19260) server control: JVM Parameter Monitoring Service start status= 0
+[2026/10/24@04:55:42.238+0200] P-4032       T-12280 I SQLSRV2 3: (19243) sql_engine: SQL service thread for client begun
+[2026/10/24@04:55:42.238+0200] P-4032       T-12280 I SQLSRV2 3: (19288) service name: JVM Param Service : Thread 12280 is executing.
+[2026/10/24@04:55:43.008+0200] P-4032       T-2008  I SQLSRV2 3: (8873)  Login usernum 4, remote SQL client. 
+[2026/10/24@04:55:43.028+0200] P-4032       T-2008  I SQLSRV2 3: (17961) User 4 set tty to 000free:16354. 
+[2026/10/24@04:55:43.028+0200] P-4032       T-2008  I SQLSRV2 3: (7129)  Usr 4 set name to temp. 
+[2026/10/24@04:55:43.028+0200] P-4032       T-2008  I SQLSRV2 3: (19205) SQLLockWaitTimeout 5 
+[2026/10/24@04:55:43.031+0200] P-4032       T-2008  I SQLSRV2 3: (19198) Login by user 4. Using TCP/IP IPV4 address 127.0.0.1
+[2026/10/24@04:55:47.851+0200] P-16524      T-2052  I SQLSRV2 1: (19201) Logout by user 2.
+[2026/10/24@04:55:47.851+0200] P-16524      T-2052  I SQLSRV2 1: (453)   Logout by temp on 000free:16322. 
+
+                Sat Oct 24 05:13:47 2026
+[2026/10/24@05:13:47.193+0200] P-6080       T-6008  I BROKER  0: (333)   Multi-user session begin. 
+[2026/10/24@05:13:47.200+0200] P-6080       T-6008  I BROKER  0: (5326)  Begin Physical Redo Phase at 128 . 
+[2026/10/24@05:13:47.213+0200] P-6080       T-6008  I BROKER  0: (7161)  Physical Redo Phase Completed at blk 212 off 3112 upd 2951. 
+[2026/10/24@05:13:47.213+0200] P-6080       T-6008  I BROKER  0: (13547) At end of Physical redo, transaction table size is 5440. 
+[2026/10/24@05:13:47.231+0200] P-6080       T-6008  I BROKER  0: (452)   Login by temp on CON:. 
+[2026/10/24@05:13:47.233+0200] P-6080       T-6008  I BROKER  0: (4393)  This server is licensed for local logins only. 
+[2026/10/24@05:13:47.246+0200] P-6080       T-6008  I BROKER  0: (5644)  Started for 10000 using TCP IPV4 address 127.0.0.1, pid 6080. 
+[2026/10/24@05:13:47.247+0200] P-6080       T-6008  I BROKER  0: (19117) This installation is licensed to:  by D:\Progress\OpenEdge\progress.cfg 
+[2026/10/24@05:13:47.247+0200] P-6080       T-6008  I BROKER  0: (19116) Product: Progress Dev Studio OE installed with serial number: 6077521 expiration: None. 
+[2026/10/24@05:13:47.248+0200] P-6080       T-6008  I BROKER  0: (4234)  Progress OpenEdge Release 12.8 build 1207 on WINNT . 
+[2026/10/24@05:13:47.248+0200] P-6080       T-6008  I BROKER  0: (19552) Broker with server num 0 logged in. 
+[2026/10/24@05:13:47.248+0200] P-6080       T-6008  I BROKER  0: (4281)  Server started by temp on CON:. 
+[2026/10/24@05:13:47.248+0200] P-6080       T-6008  I BROKER  0: (6574)  Started using pid: 6080. 
+[2026/10/24@05:13:47.249+0200] P-6080       T-6008  I BROKER  0: (9426)  Large database file access has been enabled. 
+[2026/10/24@05:13:47.249+0200] P-6080       T-6008  I BROKER  0: (15219) Encryption enabled: 0 
+[2026/10/24@05:13:47.250+0200] P-6080       T-6008  I BROKER  0: (15824) Multi-tenancy enabled: 0 
+[2026/10/24@05:13:47.250+0200] P-6080       T-6008  I BROKER  0: (15824) Table Partitioning enabled: 0 
+[2026/10/24@05:13:47.250+0200] P-6080       T-6008  I BROKER  0: (15824) Authentication Gateway enabled: 0 
+[2026/10/24@05:13:47.251+0200] P-6080       T-6008  I BROKER  0: (9336)  Created shared memory with segment_id: 1 
+[2026/10/24@05:13:47.251+0200] P-6080       T-6008  I BROKER  0: (4250)  Before-Image Cluster Size: 524288 
+[2026/10/24@05:13:47.251+0200] P-6080       T-6008  I BROKER  0: (4251)  Before-Image Block Size: 8192 
+[2026/10/24@05:13:47.251+0200] P-6080       T-6008  I BROKER  0: (4255)  After-Image Block Size: 8192. 
+[2026/10/24@05:13:47.251+0200] P-6080       T-6008  I BROKER  0: (20665) Database Code Page: iso8859-1. 
+[2026/10/24@05:13:47.252+0200] P-6080       T-6008  I BROKER  0: (20666) Database Collation: basic. 
+[2026/10/24@05:13:47.252+0200] P-6080       T-6008  I BROKER  0: (20667) Word-rule File Number: 0. 
+[2026/10/24@05:13:47.252+0200] P-6080       T-6008  I BROKER  0: (20668) Word-rule File CRC: 0. 
+[2026/10/24@05:13:47.252+0200] P-6080       T-6008  I BROKER  0: (13873) After-image Management Archival Directory List (-aiarcdir): Not Enabled 
+[2026/10/24@05:13:47.253+0200] P-6080       T-6008  I BROKER  0: (13874) Create After-image Management Archival Directory(s) (-aiarcdircreate): Not Enabled 
+[2026/10/24@05:13:47.253+0200] P-6080       T-6008  I BROKER  0: (13872) After-image Management Archival Interval (-aiarcinterval): -1 
+[2026/10/24@05:13:47.254+0200] P-6080       T-6008  I BROKER  0: (4256)  Number of After-Image Buffers (-aibufs): 64 
+[2026/10/24@05:13:47.254+0200] P-6080       T-6008  I BROKER  0: (4254)  After-Image Stall (-aistall): Not Enabled 
+[2026/10/24@05:13:47.254+0200] P-6080       T-6008  I BROKER  0: (17555) Starting index number for statistics range (-baseindex): 1 
+[2026/10/24@05:13:47.255+0200] P-6080       T-6008  I BROKER  0: (19091) Starting LOB number for statistics range (-baselob): 1 
+[2026/10/24@05:13:47.255+0200] P-6080       T-6008  I BROKER  0: (17554) Starting table number for statistics range (-basetable): 1 
+[2026/10/24@05:13:47.256+0200] P-6080       T-6008  I BROKER  0: (18406) Starting index number per user for statistics range (-baseuserindex): 1 
+[2026/10/24@05:13:47.256+0200] P-6080       T-6008  I BROKER  0: (19092) Starting LOB number per user for statistics range (-baseuserlob): 1 
+[2026/10/24@05:13:47.256+0200] P-6080       T-6008  I BROKER  0: (18404) Starting table number per user for statistics range (-baseusertable): 1 
+[2026/10/24@05:13:47.257+0200] P-6080       T-6008  I BROKER  0: (4252)  Number of Before-Image Buffers (-bibufs): 64 
+[2026/10/24@05:13:47.257+0200] P-6080       T-6008  I BROKER  0: (20052) BI Scan Time (-biscantime): 10 seconds 
+[2026/10/24@05:13:47.257+0200] P-6080       T-6008  I BROKER  0: (6552)  BI File Threshold Stall (-bistall): Disabled 
+[2026/10/24@05:13:47.258+0200] P-6080       T-6008  I BROKER  0: (9238)  BI File Threshold size (-bithold): 0.0   Bytes 
+[2026/10/24@05:13:47.258+0200] P-6080       T-6008  I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2026/10/24@05:13:47.258+0200] P-6080       T-6008  I BROKER  0: (12812) BIW writer delay (-bwdelay): 30 
+[2026/10/24@05:13:47.259+0200] P-6080       T-6008  I BROKER  0: (12813) Allowed index cursors (-c): 84 
+[2026/10/24@05:13:47.259+0200] P-6080       T-6008  I BROKER  0: (18495) CDC cache size (-cdcsize): 200k bytes 
+[2026/10/24@05:13:47.259+0200] P-6080       T-6008  I BROKER  0: (12265) SSL Certificate Store Path (-certstorepath): Not Enabled 
+[2026/10/24@05:13:47.260+0200] P-6080       T-6008  I BROKER  0: (20643) Client Database-Request Statement Caching directory (-clstmtcachedir): Not Enabled 
+[2026/10/24@05:13:47.260+0200] P-6080       T-6008  I BROKER  0: (4264)  Character Set (-cpinternal): ISO8859-1 
+[2026/10/24@05:13:47.260+0200] P-6080       T-6008  I BROKER  0: (19442) C stack print option (-cstackPrintopt): 0 
+[2026/10/24@05:13:47.261+0200] P-6080       T-6008  I BROKER  0: (4235)  Physical Database Name (-db): inventory 
+[2026/10/24@05:13:47.261+0200] P-6080       T-6008  I BROKER  0: (19519) Number of DB Notification Operations (-dbnotifyops): 16 
+[2026/10/24@05:13:47.261+0200] P-6080       T-6008  I BROKER  0: (19511) DB Notification Time (-dbnotifytime): 30 seconds 
+[2026/10/24@05:13:47.262+0200] P-6080       T-6008  I BROKER  0: (18558) Diagnostic directory (-diagDir): Not Enabled 
+[2026/10/24@05:13:47.262+0200] P-6080       T-6008  I BROKER  0: (18576) Diagnostic events value (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2026/10/24@05:13:47.262+0200] P-6080       T-6008  I BROKER  0: (18560) Diagnostic event level (-diagEvtLevel): 0 
+[2026/10/24@05:13:47.263+0200] P-6080       T-6008  I BROKER  0: (18561) Diagnostic field separator (-diagFS): ' ' 
+[2026/10/24@05:13:47.263+0200] P-6080       T-6008  I BROKER  0: (18579) Diagnostic data format (-diagFormat): csv 
+[2026/10/24@05:13:47.263+0200] P-6080       T-6008  I BROKER  0: (18562) Diagnostic pause length (-diagPause): 0 
+[2026/10/24@05:13:47.263+0200] P-6080       T-6008  I BROKER  0: (18563) Diagnostic prefix value (-diagPrefix): diagEvent_ 
+[2026/10/24@05:13:47.264+0200] P-6080       T-6008  I BROKER  0: (18580) Diagnostic procedure (-diagProc): Not Enabled 
+[2026/10/24@05:13:47.264+0200] P-6080       T-6008  I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled 
+[2026/10/24@05:13:47.264+0200] P-6080       T-6008  I BROKER  0: (4236)  Database Type (-dt): PROGRESS 
+[2026/10/24@05:13:47.264+0200] P-6080       T-6008  I BROKER  0: (15218) Encryption cache size (-ecsize): 1000 
+[2026/10/24@05:13:47.264+0200] P-6080       T-6008  I BROKER  0: (12814) Group delay (-groupdelay): 10 
+[2026/10/24@05:13:47.265+0200] P-6080       T-6008  I BROKER  0: (4242)  Hash Table Entries (-hash): 887 
+[2026/10/24@05:13:47.265+0200] P-6080       T-6008  I BROKER  0: (19195) Buffer pool hash table latch percentage (-hashLatchFactor): 10 
+[2026/10/24@05:13:47.265+0200] P-6080       T-6008  I BROKER  0: (20436) Allow hostname alias or specific IP address for the -H parameter (-hostnameAliasing): Not Enabled 
+[2026/10/24@05:13:47.266+0200] P-6080       T-6008  I BROKER  0: (4244)  Crash Recovery (-i): Enabled 
+[2026/10/24@05:13:47.266+0200] P-6080       T-6008  I BROKER  0: (17557) Number of indexes included in statistics collection (-indexrangesize): 50 
+[2026/10/24@05:13:47.267+0200] P-6080       T-6008  I BROKER  0: (14268) TCP/IP Version (-ipver): IPV4 
+[2026/10/24@05:13:47.267+0200] P-6080       T-6008  I BROKER  0: (12263) SSL Key Alias Name (-keyalias): Not Enabled 
+[2026/10/24@05:13:47.267+0200] P-6080       T-6008  I BROKER  0: (19216) Database log file archive directory (-lgArchiveDir): Not Enabled 
+[2026/10/24@05:13:47.268+0200] P-6080       T-6008  I BROKER  0: (19215) Archive database log file before truncation (-lgArchiveEnable): Not Enabled 
+[2026/10/24@05:13:47.268+0200] P-6080       T-6008  I BROKER  0: (19213) Frequency of database log file truncation (-lgTruncateFrequency): -1 
+[2026/10/24@05:13:47.268+0200] P-6080       T-6008  I BROKER  0: (19214) The maximum size the database log file can grow before truncation (-lgTruncateSize): 0MB 
+[2026/10/24@05:13:47.269+0200] P-6080       T-6008  I BROKER  0: (19212) Time of day for the database log file truncation (-lgTruncateTime): 00:00 
+[2026/10/24@05:13:47.269+0200] P-6080       T-6008  I BROKER  0: (19137) Limit .lg file payload (-limitLgPayload): Not Enabled 
+[2026/10/24@05:13:47.269+0200] P-6080       T-6008  I BROKER  0: (12815) Lock table hash table size (-lkhash): 1237 
+[2026/10/24@05:13:47.270+0200] P-6080       T-6008  I BROKER  0: (17805) Original Lock Release Algorithm (-lkrela): Not Enabled 
+[2026/10/24@05:13:47.270+0200] P-6080       T-6008  I BROKER  0: (19090) Number of LOBs included in statistics collection (-lobrangesize): 50 
+[2026/10/24@05:13:47.270+0200] P-6080       T-6008  I BROKER  0: (17560) Number of LRU force skips (-lruskips): 100 
+[2026/10/24@05:13:47.270+0200] P-6080       T-6008  I BROKER  0: (17561) Number of LRU2 force skips (-lru2skips): 0 
+[2026/10/24@05:13:47.271+0200] P-6080       T-6008  I BROKER  0: (13953) Maximum Area Number (-maxArea): 32000 
+[2026/10/24@05:13:47.271+0200] P-6080       T-6008  I BROKER  0: (5649)  Maximum Port for Auto Servers (-maxport): 5000 
+[2026/10/24@05:13:47.271+0200] P-6080       T-6008  I BROKER  0: (12540) Size of JTA transaction table (-maxxids): 100 
+[2026/10/24@05:13:47.271+0200] P-6080       T-6008  I BROKER  0: (5648)  Minimum Port for Auto Servers (-minport): 3000 
+[2026/10/24@05:13:47.272+0200] P-6080       T-6008  I BROKER  0: (17564) Multi-tenancy partition cache size (-mtpmsize): 1024 
+[2026/10/24@05:13:47.272+0200] P-6080       T-6008  I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2026/10/24@05:13:47.272+0200] P-6080       T-6008  I BROKER  0: (4260)  Maximum Number of Users (-n): 21 
+[2026/10/24@05:13:47.272+0200] P-6080       T-6008  I BROKER  0: (17566) Minimum time to nap at first -spin exhaustion (-nap): 10 
+[2026/10/24@05:13:47.272+0200] P-6080       T-6008  I BROKER  0: (17565) Maximum time to nap at -spin exhaustion (-napmax): 250 
+[2026/10/24@05:13:47.273+0200] P-6080       T-6008  I BROKER  0: (18522) SSL No Host Verify (-nohostverify): Not Enabled 
+[2026/10/24@05:13:47.273+0200] P-6080       T-6008  I BROKER  0: (12273) SSL No Session Cache (-nosessioncache): Not Enabled 
+[2026/10/24@05:13:47.273+0200] P-6080       T-6008  I BROKER  0: (18521) SSL No Session Reuse (-nosessionreuse): Not Enabled 
+[2026/10/24@05:13:47.274+0200] P-6080       T-6008  I BROKER  0: (16689) Login Governor (-nGovernor): 0 of 32000 
+[2026/10/24@05:13:47.274+0200] P-6080       T-6008  I BROKER  0: (18398) Number of checkpoint statistics to record (-numCheckpointStats): 32 
+[2026/10/24@05:13:47.274+0200] P-6080       T-6008  I BROKER  0: (19122) Omit .lg file messages (-omitLgMsgs):  
+[2026/10/24@05:13:47.275+0200] P-6080       T-6008  I BROKER  0: (8527)  Storage object cache size (-omsize): 1024 
+[2026/10/24@05:13:47.275+0200] P-6080       T-6008  I BROKER  0: (20842) Database startup parameter file (-pf): Not Enabled 
+[2026/10/24@05:13:47.275+0200] P-6080       T-6008  I BROKER  0: (13870) Database Service Manager - IPC Queue Size (-pica): 128.0 KBytes 
+[2026/10/24@05:13:47.275+0200] P-6080       T-6008  I BROKER  0: (19347) Maximum nap time when blocked to access PICA queue (-picanap): 1 ms. 
+[2026/10/24@05:13:47.276+0200] P-6080       T-6008  I BROKER  0: (17802) Shared memory segments locked (-pinshm): Not Enabled 
+[2026/10/24@05:13:47.276+0200] P-6080       T-6008  I BROKER  0: (16953) Use pollset mechanism for client/server (-pollset): Not Enabled 
+[2026/10/24@05:13:47.276+0200] P-6080       T-6008  I BROKER  0: (16955) Delay first prefetch message (-prefetchDelay): Enabled 
+[2026/10/24@05:13:47.277+0200] P-6080       T-6008  I BROKER  0: (16956) Prefetch message fill percentage (-prefetchFactor): 100 
+[2026/10/24@05:13:47.277+0200] P-6080       T-6008  I BROKER  0: (16957) Minimum records in prefetch msg (-prefetchNumRecs): 64 
+[2026/10/24@05:13:47.277+0200] P-6080       T-6008  I BROKER  0: (16958) Suspension queue poll priority (-prefetchPriority): 1 
+[2026/10/24@05:13:47.277+0200] P-6080       T-6008  I BROKER  0: (17568) APW queue scan cycle time in milliseconds (-pwqdelay): 100 
+[2026/10/24@05:13:47.277+0200] P-6080       T-6008  I BROKER  0: (17569) APW minimum queue length before write (-pwqmin): 1 
+[2026/10/24@05:13:47.278+0200] P-6080       T-6008  I BROKER  0: (17570) APW buffer scan cycle time in seconds (-pwsdelay): 1 
+[2026/10/24@05:13:47.278+0200] P-6080       T-6008  I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2026/10/24@05:13:47.278+0200] P-6080       T-6008  I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2026/10/24@05:13:47.278+0200] P-6080       T-6008  I BROKER  0: (4247)  Before-Image File I/O (-r -R): Reliable 
+[2026/10/24@05:13:47.279+0200] P-6080       T-6008  I BROKER  0: (17563) Record free chain search depth factor (-recspacesearchdepth): 5 
+[2026/10/24@05:13:47.279+0200] P-6080       T-6008  I BROKER  0: (19133) Schema Lock Wait Queue (-schlockwq): Not Enabled 
+[2026/10/24@05:13:47.279+0200] P-6080       T-6008  I BROKER  0: (18478) Security cache size (-secsize): 512 
+[2026/10/24@05:13:47.279+0200] P-6080       T-6008  I BROKER  0: (6526)  Number of Semaphore Sets (-semsets): 3 
+[2026/10/24@05:13:47.280+0200] P-6080       T-6008  I BROKER  0: (12264) SSL Session Timeout (-sessiontimeout): 0 
+[2026/10/24@05:13:47.280+0200] P-6080       T-6008  I BROKER  0: (13924) Maximum Shared Memory Segment Size (-shmsegsize): 1024 Mb 
+[2026/10/24@05:13:47.280+0200] P-6080       T-6008  I BROKER  0: (4243)  Current Spin Lock Tries (-spin): 1 
+[2026/10/24@05:13:47.280+0200] P-6080       T-6008  I BROKER  0: (17803) SSL Encryption for TCP/IP connections (-ssl): Not Enabled 
+[2026/10/24@05:13:47.280+0200] P-6080       T-6008  I BROKER  0: (19329) Database server side join support (-ssj): Not Enabled 
+[2026/10/24@05:13:47.281+0200] P-6080       T-6008  I BROKER  0: (20402) STS Socket Reuse (-stsSocketReuse): Yes 
+[2026/10/24@05:13:47.281+0200] P-6080       T-6008  I BROKER  0: (18525) STS Debug Logging Level default (-stslogginglevel): 0 
+[2026/10/24@05:13:47.281+0200] P-6080       T-6008  I BROKER  0: (17556) Number of tables included in statistics collection (-tablerangesize): 50 
+[2026/10/24@05:13:47.281+0200] P-6080       T-6008  I BROKER  0: (19151) Threaded database server (-threadedServer): Not Enabled 
+[2026/10/24@05:13:47.281+0200] P-6080       T-6008  I BROKER  0: (19159) Thread stack size for threaded database servers (-threadedServerStack): 512Kb 
+[2026/10/24@05:13:47.282+0200] P-6080       T-6008  I BROKER  0: (18407) Number of indexes per user included in statistics collection (-userindexrangesize): 50 
+[2026/10/24@05:13:47.282+0200] P-6080       T-6008  I BROKER  0: (19089) Number of lobs per user included in statistics collection (-userlobrangesize): 50 
+[2026/10/24@05:13:47.282+0200] P-6080       T-6008  I BROKER  0: (18118) User Notification Time (-usernotifytime): 600 seconds 
+[2026/10/24@05:13:47.283+0200] P-6080       T-6008  I BROKER  0: (18405) Number of tables per user included in statistics collection (-usertablerangesize): 50 
+[2026/10/24@05:13:47.283+0200] P-6080       T-6008  I BROKER  0: (14017) Area block consistency check in area "" (-AreaCheck): Not Enabled 
+[2026/10/24@05:13:47.283+0200] P-6080       T-6008  I BROKER  0: (4239)  Number of Database Buffers (-B): 3000 
+[2026/10/24@05:13:47.283+0200] P-6080       T-6008  I BROKER  0: (17562) Number of Alternate Database Buffers (-B2): 0 
+[2026/10/24@05:13:47.284+0200] P-6080       T-6008  I BROKER  0: (9422)  Maximum private buffers per user (-Bpmax): 64 
+[2026/10/24@05:13:47.284+0200] P-6080       T-6008  I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2026/10/24@05:13:47.284+0200] P-6080       T-6008  I BROKER  0: (13869) Database Service Manager - Service(s) to start (-DBService): Not Enabled 
+[2026/10/24@05:13:47.284+0200] P-6080       T-6008  I BROKER  0: (10535) Enhanced Read-Only mode (-ERO): Not Enabled 
+[2026/10/24@05:13:47.285+0200] P-6080       T-6008  I BROKER  0: (4237)  Force Access (-F): Not Enabled 
+[2026/10/24@05:13:47.285+0200] P-6080       T-6008  I BROKER  0: (4249)  Before-Image Truncate Interval (-G): 0 
+[2026/10/24@05:13:47.285+0200] P-6080       T-6008  I BROKER  0: (4261)  Host Name (-H): DESKTOP-09IDAPF 
+[2026/10/24@05:13:47.286+0200] P-6080       T-6008  I BROKER  0: (14018) Index block consistency check in index "", partitionID -32767(-IndexCheck): Not Enabled 
+[2026/10/24@05:13:47.286+0200] P-6080       T-6008  I BROKER  0: (4241)  Current Size of Lock Table (-L): 8192 
+[2026/10/24@05:13:47.286+0200] P-6080       T-6008  I BROKER  0: (16688) Lock Governor (-LGovernor): 0% 
+[2026/10/24@05:13:47.286+0200] P-6080       T-6008  I BROKER  0: (4257)  Maximum Number of Clients Per Server (-Ma): 5 
+[2026/10/24@05:13:47.287+0200] P-6080       T-6008  I BROKER  0: (14015) Memory overwrite check (-MemCheck): Not Enabled 
+[2026/10/24@05:13:47.287+0200] P-6080       T-6008  I BROKER  0: (4245)  Delay of Before-Image Flush (-Mf): 3 
+[2026/10/24@05:13:47.287+0200] P-6080       T-6008  I BROKER  0: (4259)  Minimum Clients Per Server (-Mi): 1 
+[2026/10/24@05:13:47.287+0200] P-6080       T-6008  I BROKER  0: (12818) Message Buffer Size (-Mm): 8192 
+[2026/10/24@05:13:47.287+0200] P-6080       T-6008  I BROKER  0: (4258)  Maximum Number of Servers (-Mn): 5 
+[2026/10/24@05:13:47.288+0200] P-6080       T-6008  I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2026/10/24@05:13:47.288+0200] P-6080       T-6008  I BROKER  0: (5647)  Maximum Servers Per Broker (-Mpb): 0 
+[2026/10/24@05:13:47.288+0200] P-6080       T-6008  I BROKER  0: (4240)  Excess Shared Memory Size (-Mxs): 39 
+[2026/10/24@05:13:47.288+0200] P-6080       T-6008  I BROKER  0: (4263)  Network Type (-N): TCP 
+[2026/10/24@05:13:47.289+0200] P-6080       T-6008  I BROKER  0: (16954) Server network message wait time (-Nmsgwait): 2 
+[2026/10/24@05:13:47.289+0200] P-6080       T-6008  I BROKER  0: (10357) Pending client connection timeout (-PendConnTime): 0 
+[2026/10/24@05:13:47.289+0200] P-6080       T-6008  I BROKER  0: (4262)  Service Name (-S): 10000 
+[2026/10/24@05:13:47.289+0200] P-6080       T-6008  I BROKER  0: (17804) Broker server group support (-ServerType): BOTH 
+[2026/10/24@05:13:47.290+0200] P-6080       T-6008  I BROKER  0: (19342) SQL Autonomous Update Statistics (-SQLAutoStats): OFF 
+[2026/10/24@05:13:47.290+0200] P-6080       T-6008  I BROKER  0: (10028) SQL Server Max Open Cursors (-SQLCursors): 50 
+[2026/10/24@05:13:47.290+0200] P-6080       T-6008  I BROKER  0: (20037) SQL Enable Core Generation (-SQLEnableCoreGeneration): OFF 
+[2026/10/24@05:13:47.290+0200] P-6080       T-6008  I BROKER  0: (20038) SQL Failure Driven Log (-SQLFailureDrivenLog): OFF 
+[2026/10/24@05:13:47.291+0200] P-6080       T-6008  I BROKER  0: (17567) Number of seconds for a SQL client to wait for a lock conflict to be resolved (-SQLLockWaitTimeout): 5. 
+[2026/10/24@05:13:47.291+0200] P-6080       T-6008  I BROKER  0: (19134) SQL rowid identifier (-SQLQuotedRowid): Standard 
+[2026/10/24@05:13:47.291+0200] P-6080       T-6008  I BROKER  0: (10026) SQL Server Stack Size (-SQLStack): 1000 
+[2026/10/24@05:13:47.291+0200] P-6080       T-6008  I BROKER  0: (10027) SQL Server Statement Cache Size (-SQLStmtCache): 100 
+[2026/10/24@05:13:47.292+0200] P-6080       T-6008  I BROKER  0: (10029) Size [1K byte units] of SQL Server temp table buffer (-SQLTempBuff): 1000 
+[2026/10/24@05:13:47.292+0200] P-6080       T-6008  I BROKER  0: (10030) Size [1K byte units] of SQL Server temp table disk storage (-SQLTempDisk): 500000 
+[2026/10/24@05:13:47.292+0200] P-6080       T-6008  I BROKER  0: (10031) Size [1K byte units] of SQL Server temp table data page (-SQLTempPgSize): 8 
+[2026/10/24@05:13:47.293+0200] P-6080       T-6008  I BROKER  0: (17955) Authorized data truncation (-SQLTruncateTooLarge): OFF 
+[2026/10/24@05:13:47.293+0200] P-6080       T-6008  I BROKER  0: (18156) SQL Autonomous Schema Update (-SQLWidthUpdate): OFF 
+[2026/10/24@05:13:47.293+0200] P-6080       T-6008  I BROKER  0: (14019) Record block consistency check in table "", partitionID -32767(-TableCheck): Not Enabled 
+[2026/10/24@05:13:47.293+0200] P-6080       T-6008  I BROKER  0: (17717) TXE Lock retry limit (-TXERetryLimit): 0 
+[2026/10/24@05:13:47.293+0200] P-6080       T-6008  I BROKER  0: (13896) TXE Commit lock skip limit (-TXESkipLimit): 10000 
+[2026/10/24@05:13:47.305+0200] P-6080       T-6008  I BROKER  0: (10836) Database connections are not allowed at this time. 
+[2026/10/24@05:13:47.305+0200] P-6080       T-6008  I BROKER  0: (10471) Database connections have been enabled. 
+[2026/10/24@05:14:00.616+0200] P-7252       T-8364  I SQLSRV2 1: (19262) SQL Server 12.8.00 started, configuration: "inventory.virtualconfig" 
+[2026/10/24@05:14:00.626+0200] P-7252       T-8364  I SQLSRV2 1: (19552) SQL Server with server num 1 logged in.
+[2026/10/24@05:14:00.626+0200] P-7252       T-8364  I SQLSRV2 1: (19265) "inventory" started on IPv4 port 3000 for address 127.0.0.1, pid 7252 (0x00001c54).
+[2026/10/24@05:14:00.626+0200] P-7252       T-8364  I SQLSRV2 1: (19263) Thread stack size:  1024000  (bytes).
+[2026/10/24@05:14:00.626+0200] P-7252       T-8364  I SQLSRV2 1: (19270) DLC from ENVIRONMENT VARIABLE is: D:\Progress\OpenEdge
+[2026/10/24@05:14:00.626+0200] P-7252       T-8364  I SQLSRV2 1: (19270) WRKDIR from ENVIRONMENT VARIABLE is: C:\OpenEdge\WRK\
+[2026/10/24@05:14:00.626+0200] P-7252       T-8364  I SQLSRV2 1: (19270) JDKHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@05:14:00.626+0200] P-7252       T-8364  I SQLSRV2 1: (19270) JREHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@05:14:00.626+0200] P-7252       T-8364  I SQLSRV2 1: (19270) CLASSPATH from DEFAULT is: 
+[2026/10/24@05:14:00.626+0200] P-7252       T-8364  I SQLSRV2 1: (19271) PROSQL_LOCKWAIT_TIMEOUT value is: 5 seconds
+[2026/10/24@05:14:00.645+0200] P-7252       T-8364  I SQLSRV2 1: (19260) server control: JVM Parameter Monitoring Service start status= 0
+[2026/10/24@05:14:00.659+0200] P-7252       T-6396  I SQLSRV2 1: (19243) sql_engine: SQL service thread for client begun
+[2026/10/24@05:14:00.659+0200] P-7252       T-6396  I SQLSRV2 1: (19288) service name: JVM Param Service : Thread 6396 is executing.
+[2026/10/24@05:14:01.391+0200] P-7252       T-10356 I SQLSRV2 1: (8873)  Login usernum 2, remote SQL client. 
+[2026/10/24@05:14:01.416+0200] P-7252       T-10356 I SQLSRV2 1: (17961) User 2 set tty to 000free:49793. 
+[2026/10/24@05:14:01.416+0200] P-7252       T-10356 I SQLSRV2 1: (7129)  Usr 2 set name to temp. 
+[2026/10/24@05:14:01.416+0200] P-7252       T-10356 I SQLSRV2 1: (19205) SQLLockWaitTimeout 5 
+[2026/10/24@05:14:01.421+0200] P-7252       T-10356 I SQLSRV2 1: (19198) Login by user 2. Using TCP/IP IPV4 address 127.0.0.1
+[2026/10/24@05:18:10.165+0200] P-7252       T-10356 I SQLSRV2 1: (19201) Logout by user 2.
+[2026/10/24@05:18:10.165+0200] P-7252       T-10356 I SQLSRV2 1: (453)   Logout by temp on 000free:49793. 
+[2026/10/24@05:19:58.235+0200] P-7252       T-13020 I SQLSRV2 1: (8873)  Login usernum 2, remote SQL client. 
+[2026/10/24@05:19:58.245+0200] P-7252       T-13020 I SQLSRV2 1: (17961) User 2 set tty to 000free:50129. 
+[2026/10/24@05:19:58.245+0200] P-7252       T-13020 I SQLSRV2 1: (7129)  Usr 2 set name to temp. 
+[2026/10/24@05:19:58.245+0200] P-7252       T-13020 I SQLSRV2 1: (19205) SQLLockWaitTimeout 5 
+[2026/10/24@05:19:58.246+0200] P-7252       T-13020 I SQLSRV2 1: (19198) Login by user 2. Using TCP/IP IPV4 address 127.0.0.1
+[2026/10/24@05:20:55.079+0200] P-3892       T-11204 I SQLSRV2 3: (19262) SQL Server 12.8.00 started, configuration: "inventory.virtualconfig" 
+[2026/10/24@05:20:55.088+0200] P-3892       T-11204 I SQLSRV2 3: (19552) SQL Server with server num 2 logged in.
+[2026/10/24@05:20:55.088+0200] P-3892       T-11204 I SQLSRV2 3: (19265) "inventory" started on IPv4 port 3001 for address 127.0.0.1, pid 3892 (0x00000f34).
+[2026/10/24@05:20:55.088+0200] P-3892       T-11204 I SQLSRV2 3: (19263) Thread stack size:  1024000  (bytes).
+[2026/10/24@05:20:55.088+0200] P-3892       T-11204 I SQLSRV2 3: (19270) DLC from ENVIRONMENT VARIABLE is: D:\Progress\OpenEdge
+[2026/10/24@05:20:55.088+0200] P-3892       T-11204 I SQLSRV2 3: (19270) WRKDIR from ENVIRONMENT VARIABLE is: C:\OpenEdge\WRK\
+[2026/10/24@05:20:55.088+0200] P-3892       T-11204 I SQLSRV2 3: (19270) JDKHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@05:20:55.088+0200] P-3892       T-11204 I SQLSRV2 3: (19270) JREHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@05:20:55.088+0200] P-3892       T-11204 I SQLSRV2 3: (19270) CLASSPATH from DEFAULT is: 
+[2026/10/24@05:20:55.088+0200] P-3892       T-11204 I SQLSRV2 3: (19271) PROSQL_LOCKWAIT_TIMEOUT value is: 5 seconds
+[2026/10/24@05:20:55.107+0200] P-3892       T-11204 I SQLSRV2 3: (19260) server control: JVM Parameter Monitoring Service start status= 0
+[2026/10/24@05:20:55.121+0200] P-3892       T-3760  I SQLSRV2 3: (19243) sql_engine: SQL service thread for client begun
+[2026/10/24@05:20:55.122+0200] P-3892       T-3760  I SQLSRV2 3: (19288) service name: JVM Param Service : Thread 3760 is executing.
+[2026/10/24@05:20:55.919+0200] P-3892       T-12960 I SQLSRV2 3: (8873)  Login usernum 4, remote SQL client. 
+[2026/10/24@05:20:55.937+0200] P-3892       T-12960 I SQLSRV2 3: (17961) User 4 set tty to 000free:50146. 
+[2026/10/24@05:20:55.937+0200] P-3892       T-12960 I SQLSRV2 3: (7129)  Usr 4 set name to temp. 
+[2026/10/24@05:20:55.937+0200] P-3892       T-12960 I SQLSRV2 3: (19205) SQLLockWaitTimeout 5 
+[2026/10/24@05:20:55.941+0200] P-3892       T-12960 I SQLSRV2 3: (19198) Login by user 4. Using TCP/IP IPV4 address 127.0.0.1
+[2026/10/24@05:20:58.685+0200] P-3892       T-12960 I SQLSRV2 3: (19201) Logout by user 4.
+[2026/10/24@05:20:58.686+0200] P-3892       T-12960 I SQLSRV2 3: (453)   Logout by temp on 000free:50146. 
+[2026/10/24@05:21:37.297+0200] P-12856      T-13164 I SRV     4: (452)   Login by temp on CON:. 
+[2026/10/24@05:21:37.314+0200] P-12856      T-13164 I SRV     4: (19552) Server with server num 3 logged in. 
+[2026/10/24@05:21:37.315+0200] P-12856      T-13164 I SRV     4: (5646)  Started on port 3002 using TCP IPV4 address 127.0.0.1, pid 12856. 
+[2026/10/24@05:21:38.234+0200] P-12856      T-13164 I SRV     4: (742)   Login usernum 5, userid temp client type ABL , on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1. 
+[2026/10/24@05:21:38.235+0200] P-12856      T-13164 I SRV     4: (7129)  Usr 5 set name to temp. 
+[2026/10/24@05:21:38.235+0200] P-12856      T-13164 I SRV     4: (17961) User 5 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@05:21:38.259+0200] P-12856      T-13164 I SRV     4: (7129)  Usr 5 set name to temp. 
+[2026/10/24@05:25:41.943+0200] P-12856      T-13164 I SRV     4: (739)   Logout usernum 5, userid temp, on DESKTOP-09IDAPF. 
+[2026/10/24@05:31:20.841+0200] P-12856      T-13164 I SRV     4: (742)   Login usernum 5, userid temp client type ABL , on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1. 
+[2026/10/24@05:31:20.842+0200] P-12856      T-13164 I SRV     4: (7129)  Usr 5 set name to temp. 
+[2026/10/24@05:31:20.842+0200] P-12856      T-13164 I SRV     4: (17961) User 5 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@05:31:20.861+0200] P-12856      T-13164 I SRV     4: (7129)  Usr 5 set name to temp. 
+[2026/10/24@05:37:01.402+0200] P-6296       T-12396 I SRV     6: (452)   Login by temp on CON:. 
+[2026/10/24@05:37:01.418+0200] P-6296       T-12396 I SRV     6: (19552) Server with server num 4 logged in. 
+[2026/10/24@05:37:01.418+0200] P-6296       T-12396 I SRV     6: (5646)  Started on port 3003 using TCP IPV4 address 127.0.0.1, pid 6296. 
+[2026/10/24@05:37:02.343+0200] P-6296       T-12396 I SRV     6: (742)   Login usernum 7, userid temp client type ABL , on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1. 
+[2026/10/24@05:37:02.343+0200] P-6296       T-12396 I SRV     6: (7129)  Usr 7 set name to temp. 
+[2026/10/24@05:37:02.343+0200] P-6296       T-12396 I SRV     6: (17961) User 7 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@05:37:02.363+0200] P-6296       T-12396 I SRV     6: (7129)  Usr 7 set name to temp. 
+[2026/10/24@17:27:55.480+0200] P-12856      T-13164 I SRV     4: (739)   Logout usernum 5, userid temp, on DESKTOP-09IDAPF. 
+[2026/10/24@17:27:55.648+0200] P-7252       T-13020 I SQLSRV2 1: (19201) Logout by user 2.
+[2026/10/24@17:27:55.649+0200] P-7252       T-13020 I SQLSRV2 1: (453)   Logout by temp on 000free:50129. 
+[2026/10/24@17:27:59.184+0200] P-6296       T-12396 I SRV     6: (739)   Logout usernum 7, userid temp, on DESKTOP-09IDAPF. 
+
+                Sat Oct 24 17:47:09 2026
+[2026/10/24@17:47:09.100+0200] P-10092      T-4540  I BROKER  0: (333)   Multi-user session begin. 
+[2026/10/24@17:47:09.105+0200] P-10092      T-4540  I BROKER  0: (5326)  Begin Physical Redo Phase at 128 . 
+[2026/10/24@17:47:09.119+0200] P-10092      T-4540  I BROKER  0: (7161)  Physical Redo Phase Completed at blk 212 off 3164 upd 2951. 
+[2026/10/24@17:47:09.119+0200] P-10092      T-4540  I BROKER  0: (13547) At end of Physical redo, transaction table size is 5440. 
+[2026/10/24@17:47:09.134+0200] P-10092      T-4540  I BROKER  0: (452)   Login by temp on batch. 
+[2026/10/24@17:47:09.135+0200] P-10092      T-4540  I BROKER  0: (4393)  This server is licensed for local logins only. 
+[2026/10/24@17:47:09.150+0200] P-10092      T-4540  I BROKER  0: (5644)  Started for 10000 using TCP IPV4 address 127.0.0.1, pid 10092. 
+[2026/10/24@17:47:09.151+0200] P-10092      T-4540  I BROKER  0: (19117) This installation is licensed to:  by D:\Progress\OpenEdge\progress.cfg 
+[2026/10/24@17:47:09.151+0200] P-10092      T-4540  I BROKER  0: (19116) Product: Progress Dev Studio OE installed with serial number: 6077521 expiration: None. 
+[2026/10/24@17:47:09.151+0200] P-10092      T-4540  I BROKER  0: (4234)  Progress OpenEdge Release 12.8 build 1207 on WINNT . 
+[2026/10/24@17:47:09.151+0200] P-10092      T-4540  I BROKER  0: (19552) Broker with server num 0 logged in. 
+[2026/10/24@17:47:09.151+0200] P-10092      T-4540  I BROKER  0: (4281)  Server started by temp on batch. 
+[2026/10/24@17:47:09.151+0200] P-10092      T-4540  I BROKER  0: (6574)  Started using pid: 10092. 
+[2026/10/24@17:47:09.152+0200] P-10092      T-4540  I BROKER  0: (9426)  Large database file access has been enabled. 
+[2026/10/24@17:47:09.152+0200] P-10092      T-4540  I BROKER  0: (15219) Encryption enabled: 0 
+[2026/10/24@17:47:09.152+0200] P-10092      T-4540  I BROKER  0: (15824) Multi-tenancy enabled: 0 
+[2026/10/24@17:47:09.152+0200] P-10092      T-4540  I BROKER  0: (15824) Table Partitioning enabled: 0 
+[2026/10/24@17:47:09.152+0200] P-10092      T-4540  I BROKER  0: (15824) Authentication Gateway enabled: 0 
+[2026/10/24@17:47:09.152+0200] P-10092      T-4540  I BROKER  0: (9336)  Created shared memory with segment_id: 1 
+[2026/10/24@17:47:09.153+0200] P-10092      T-4540  I BROKER  0: (4250)  Before-Image Cluster Size: 524288 
+[2026/10/24@17:47:09.153+0200] P-10092      T-4540  I BROKER  0: (4251)  Before-Image Block Size: 8192 
+[2026/10/24@17:47:09.153+0200] P-10092      T-4540  I BROKER  0: (4255)  After-Image Block Size: 8192. 
+[2026/10/24@17:47:09.153+0200] P-10092      T-4540  I BROKER  0: (20665) Database Code Page: iso8859-1. 
+[2026/10/24@17:47:09.153+0200] P-10092      T-4540  I BROKER  0: (20666) Database Collation: basic. 
+[2026/10/24@17:47:09.153+0200] P-10092      T-4540  I BROKER  0: (20667) Word-rule File Number: 0. 
+[2026/10/24@17:47:09.153+0200] P-10092      T-4540  I BROKER  0: (20668) Word-rule File CRC: 0. 
+[2026/10/24@17:47:09.153+0200] P-10092      T-4540  I BROKER  0: (13873) After-image Management Archival Directory List (-aiarcdir): Not Enabled 
+[2026/10/24@17:47:09.154+0200] P-10092      T-4540  I BROKER  0: (13874) Create After-image Management Archival Directory(s) (-aiarcdircreate): Not Enabled 
+[2026/10/24@17:47:09.154+0200] P-10092      T-4540  I BROKER  0: (13872) After-image Management Archival Interval (-aiarcinterval): -1 
+[2026/10/24@17:47:09.154+0200] P-10092      T-4540  I BROKER  0: (4256)  Number of After-Image Buffers (-aibufs): 64 
+[2026/10/24@17:47:09.154+0200] P-10092      T-4540  I BROKER  0: (4254)  After-Image Stall (-aistall): Not Enabled 
+[2026/10/24@17:47:09.154+0200] P-10092      T-4540  I BROKER  0: (17555) Starting index number for statistics range (-baseindex): 1 
+[2026/10/24@17:47:09.154+0200] P-10092      T-4540  I BROKER  0: (19091) Starting LOB number for statistics range (-baselob): 1 
+[2026/10/24@17:47:09.155+0200] P-10092      T-4540  I BROKER  0: (17554) Starting table number for statistics range (-basetable): 1 
+[2026/10/24@17:47:09.155+0200] P-10092      T-4540  I BROKER  0: (18406) Starting index number per user for statistics range (-baseuserindex): 1 
+[2026/10/24@17:47:09.155+0200] P-10092      T-4540  I BROKER  0: (19092) Starting LOB number per user for statistics range (-baseuserlob): 1 
+[2026/10/24@17:47:09.155+0200] P-10092      T-4540  I BROKER  0: (18404) Starting table number per user for statistics range (-baseusertable): 1 
+[2026/10/24@17:47:09.156+0200] P-10092      T-4540  I BROKER  0: (4252)  Number of Before-Image Buffers (-bibufs): 64 
+[2026/10/24@17:47:09.156+0200] P-10092      T-4540  I BROKER  0: (20052) BI Scan Time (-biscantime): 10 seconds 
+[2026/10/24@17:47:09.156+0200] P-10092      T-4540  I BROKER  0: (6552)  BI File Threshold Stall (-bistall): Disabled 
+[2026/10/24@17:47:09.156+0200] P-10092      T-4540  I BROKER  0: (9238)  BI File Threshold size (-bithold): 0.0   Bytes 
+[2026/10/24@17:47:09.156+0200] P-10092      T-4540  I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2026/10/24@17:47:09.156+0200] P-10092      T-4540  I BROKER  0: (12812) BIW writer delay (-bwdelay): 30 
+[2026/10/24@17:47:09.156+0200] P-10092      T-4540  I BROKER  0: (12813) Allowed index cursors (-c): 84 
+[2026/10/24@17:47:09.157+0200] P-10092      T-4540  I BROKER  0: (18495) CDC cache size (-cdcsize): 200k bytes 
+[2026/10/24@17:47:09.157+0200] P-10092      T-4540  I BROKER  0: (12265) SSL Certificate Store Path (-certstorepath): Not Enabled 
+[2026/10/24@17:47:09.157+0200] P-10092      T-4540  I BROKER  0: (20643) Client Database-Request Statement Caching directory (-clstmtcachedir): Not Enabled 
+[2026/10/24@17:47:09.157+0200] P-10092      T-4540  I BROKER  0: (4264)  Character Set (-cpinternal): ISO8859-1 
+[2026/10/24@17:47:09.157+0200] P-10092      T-4540  I BROKER  0: (19442) C stack print option (-cstackPrintopt): 0 
+[2026/10/24@17:47:09.157+0200] P-10092      T-4540  I BROKER  0: (4235)  Physical Database Name (-db): L:/AppHeap/github_repos/progress_hackathon/database/inventory/inventory 
+[2026/10/24@17:47:09.158+0200] P-10092      T-4540  I BROKER  0: (19519) Number of DB Notification Operations (-dbnotifyops): 16 
+[2026/10/24@17:47:09.158+0200] P-10092      T-4540  I BROKER  0: (19511) DB Notification Time (-dbnotifytime): 30 seconds 
+[2026/10/24@17:47:09.158+0200] P-10092      T-4540  I BROKER  0: (18558) Diagnostic directory (-diagDir): Not Enabled 
+[2026/10/24@17:47:09.158+0200] P-10092      T-4540  I BROKER  0: (18576) Diagnostic events value (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2026/10/24@17:47:09.158+0200] P-10092      T-4540  I BROKER  0: (18560) Diagnostic event level (-diagEvtLevel): 0 
+[2026/10/24@17:47:09.160+0200] P-10092      T-4540  I BROKER  0: (18561) Diagnostic field separator (-diagFS): ' ' 
+[2026/10/24@17:47:09.161+0200] P-10092      T-4540  I BROKER  0: (18579) Diagnostic data format (-diagFormat): csv 
+[2026/10/24@17:47:09.161+0200] P-10092      T-4540  I BROKER  0: (18562) Diagnostic pause length (-diagPause): 0 
+[2026/10/24@17:47:09.161+0200] P-10092      T-4540  I BROKER  0: (18563) Diagnostic prefix value (-diagPrefix): diagEvent_ 
+[2026/10/24@17:47:09.161+0200] P-10092      T-4540  I BROKER  0: (18580) Diagnostic procedure (-diagProc): Not Enabled 
+[2026/10/24@17:47:09.161+0200] P-10092      T-4540  I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled 
+[2026/10/24@17:47:09.161+0200] P-10092      T-4540  I BROKER  0: (4236)  Database Type (-dt): PROGRESS 
+[2026/10/24@17:47:09.161+0200] P-10092      T-4540  I BROKER  0: (15218) Encryption cache size (-ecsize): 1000 
+[2026/10/24@17:47:09.161+0200] P-10092      T-4540  I BROKER  0: (12814) Group delay (-groupdelay): 10 
+[2026/10/24@17:47:09.161+0200] P-10092      T-4540  I BROKER  0: (4242)  Hash Table Entries (-hash): 887 
+[2026/10/24@17:47:09.162+0200] P-10092      T-4540  I BROKER  0: (19195) Buffer pool hash table latch percentage (-hashLatchFactor): 10 
+[2026/10/24@17:47:09.162+0200] P-10092      T-4540  I BROKER  0: (20436) Allow hostname alias or specific IP address for the -H parameter (-hostnameAliasing): Not Enabled 
+[2026/10/24@17:47:09.162+0200] P-10092      T-4540  I BROKER  0: (4244)  Crash Recovery (-i): Enabled 
+[2026/10/24@17:47:09.162+0200] P-10092      T-4540  I BROKER  0: (17557) Number of indexes included in statistics collection (-indexrangesize): 50 
+[2026/10/24@17:47:09.163+0200] P-10092      T-4540  I BROKER  0: (14268) TCP/IP Version (-ipver): IPV4 
+[2026/10/24@17:47:09.163+0200] P-10092      T-4540  I BROKER  0: (12263) SSL Key Alias Name (-keyalias): Not Enabled 
+[2026/10/24@17:47:09.163+0200] P-10092      T-4540  I BROKER  0: (19216) Database log file archive directory (-lgArchiveDir): Not Enabled 
+[2026/10/24@17:47:09.163+0200] P-10092      T-4540  I BROKER  0: (19215) Archive database log file before truncation (-lgArchiveEnable): Not Enabled 
+[2026/10/24@17:47:09.163+0200] P-10092      T-4540  I BROKER  0: (19213) Frequency of database log file truncation (-lgTruncateFrequency): -1 
+[2026/10/24@17:47:09.164+0200] P-10092      T-4540  I BROKER  0: (19214) The maximum size the database log file can grow before truncation (-lgTruncateSize): 0MB 
+[2026/10/24@17:47:09.164+0200] P-10092      T-4540  I BROKER  0: (19212) Time of day for the database log file truncation (-lgTruncateTime): 00:00 
+[2026/10/24@17:47:09.164+0200] P-10092      T-4540  I BROKER  0: (19137) Limit .lg file payload (-limitLgPayload): Not Enabled 
+[2026/10/24@17:47:09.164+0200] P-10092      T-4540  I BROKER  0: (12815) Lock table hash table size (-lkhash): 1237 
+[2026/10/24@17:47:09.164+0200] P-10092      T-4540  I BROKER  0: (17805) Original Lock Release Algorithm (-lkrela): Not Enabled 
+[2026/10/24@17:47:09.164+0200] P-10092      T-4540  I BROKER  0: (19090) Number of LOBs included in statistics collection (-lobrangesize): 50 
+[2026/10/24@17:47:09.164+0200] P-10092      T-4540  I BROKER  0: (17560) Number of LRU force skips (-lruskips): 100 
+[2026/10/24@17:47:09.165+0200] P-10092      T-4540  I BROKER  0: (17561) Number of LRU2 force skips (-lru2skips): 0 
+[2026/10/24@17:47:09.165+0200] P-10092      T-4540  I BROKER  0: (13953) Maximum Area Number (-maxArea): 32000 
+[2026/10/24@17:47:09.165+0200] P-10092      T-4540  I BROKER  0: (5649)  Maximum Port for Auto Servers (-maxport): 5000 
+[2026/10/24@17:47:09.165+0200] P-10092      T-4540  I BROKER  0: (12540) Size of JTA transaction table (-maxxids): 100 
+[2026/10/24@17:47:09.165+0200] P-10092      T-4540  I BROKER  0: (5648)  Minimum Port for Auto Servers (-minport): 3000 
+[2026/10/24@17:47:09.165+0200] P-10092      T-4540  I BROKER  0: (17564) Multi-tenancy partition cache size (-mtpmsize): 1024 
+[2026/10/24@17:47:09.165+0200] P-10092      T-4540  I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2026/10/24@17:47:09.165+0200] P-10092      T-4540  I BROKER  0: (4260)  Maximum Number of Users (-n): 21 
+[2026/10/24@17:47:09.165+0200] P-10092      T-4540  I BROKER  0: (17566) Minimum time to nap at first -spin exhaustion (-nap): 10 
+[2026/10/24@17:47:09.166+0200] P-10092      T-4540  I BROKER  0: (17565) Maximum time to nap at -spin exhaustion (-napmax): 250 
+[2026/10/24@17:47:09.166+0200] P-10092      T-4540  I BROKER  0: (18522) SSL No Host Verify (-nohostverify): Not Enabled 
+[2026/10/24@17:47:09.166+0200] P-10092      T-4540  I BROKER  0: (12273) SSL No Session Cache (-nosessioncache): Not Enabled 
+[2026/10/24@17:47:09.166+0200] P-10092      T-4540  I BROKER  0: (18521) SSL No Session Reuse (-nosessionreuse): Not Enabled 
+[2026/10/24@17:47:09.166+0200] P-10092      T-4540  I BROKER  0: (16689) Login Governor (-nGovernor): 0 of 32000 
+[2026/10/24@17:47:09.166+0200] P-10092      T-4540  I BROKER  0: (18398) Number of checkpoint statistics to record (-numCheckpointStats): 32 
+[2026/10/24@17:47:09.166+0200] P-10092      T-4540  I BROKER  0: (19122) Omit .lg file messages (-omitLgMsgs):  
+[2026/10/24@17:47:09.166+0200] P-10092      T-4540  I BROKER  0: (8527)  Storage object cache size (-omsize): 1024 
+[2026/10/24@17:47:09.167+0200] P-10092      T-4540  I BROKER  0: (20842) Database startup parameter file (-pf): Not Enabled 
+[2026/10/24@17:47:09.167+0200] P-10092      T-4540  I BROKER  0: (13870) Database Service Manager - IPC Queue Size (-pica): 128.0 KBytes 
+[2026/10/24@17:47:09.167+0200] P-10092      T-4540  I BROKER  0: (19347) Maximum nap time when blocked to access PICA queue (-picanap): 1 ms. 
+[2026/10/24@17:47:09.167+0200] P-10092      T-4540  I BROKER  0: (17802) Shared memory segments locked (-pinshm): Not Enabled 
+[2026/10/24@17:47:09.167+0200] P-10092      T-4540  I BROKER  0: (16953) Use pollset mechanism for client/server (-pollset): Not Enabled 
+[2026/10/24@17:47:09.167+0200] P-10092      T-4540  I BROKER  0: (16955) Delay first prefetch message (-prefetchDelay): Enabled 
+[2026/10/24@17:47:09.167+0200] P-10092      T-4540  I BROKER  0: (16956) Prefetch message fill percentage (-prefetchFactor): 100 
+[2026/10/24@17:47:09.168+0200] P-10092      T-4540  I BROKER  0: (16957) Minimum records in prefetch msg (-prefetchNumRecs): 64 
+[2026/10/24@17:47:09.168+0200] P-10092      T-4540  I BROKER  0: (16958) Suspension queue poll priority (-prefetchPriority): 1 
+[2026/10/24@17:47:09.168+0200] P-10092      T-4540  I BROKER  0: (17568) APW queue scan cycle time in milliseconds (-pwqdelay): 100 
+[2026/10/24@17:47:09.261+0200] P-10092      T-4540  I BROKER  0: (17569) APW minimum queue length before write (-pwqmin): 1 
+[2026/10/24@17:47:09.261+0200] P-10092      T-4540  I BROKER  0: (17570) APW buffer scan cycle time in seconds (-pwsdelay): 1 
+[2026/10/24@17:47:09.261+0200] P-10092      T-4540  I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2026/10/24@17:47:09.261+0200] P-10092      T-4540  I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2026/10/24@17:47:09.261+0200] P-10092      T-4540  I BROKER  0: (4247)  Before-Image File I/O (-r -R): Reliable 
+[2026/10/24@17:47:09.262+0200] P-10092      T-4540  I BROKER  0: (17563) Record free chain search depth factor (-recspacesearchdepth): 5 
+[2026/10/24@17:47:09.262+0200] P-10092      T-4540  I BROKER  0: (19133) Schema Lock Wait Queue (-schlockwq): Not Enabled 
+[2026/10/24@17:47:09.262+0200] P-10092      T-4540  I BROKER  0: (18478) Security cache size (-secsize): 512 
+[2026/10/24@17:47:09.262+0200] P-10092      T-4540  I BROKER  0: (6526)  Number of Semaphore Sets (-semsets): 3 
+[2026/10/24@17:47:09.262+0200] P-10092      T-4540  I BROKER  0: (12264) SSL Session Timeout (-sessiontimeout): 0 
+[2026/10/24@17:47:09.262+0200] P-10092      T-4540  I BROKER  0: (13924) Maximum Shared Memory Segment Size (-shmsegsize): 1024 Mb 
+[2026/10/24@17:47:09.262+0200] P-10092      T-4540  I BROKER  0: (4243)  Current Spin Lock Tries (-spin): 1 
+[2026/10/24@17:47:09.262+0200] P-10092      T-4540  I BROKER  0: (17803) SSL Encryption for TCP/IP connections (-ssl): Not Enabled 
+[2026/10/24@17:47:09.262+0200] P-10092      T-4540  I BROKER  0: (19329) Database server side join support (-ssj): Not Enabled 
+[2026/10/24@17:47:09.263+0200] P-10092      T-4540  I BROKER  0: (20402) STS Socket Reuse (-stsSocketReuse): Yes 
+[2026/10/24@17:47:09.263+0200] P-10092      T-4540  I BROKER  0: (18525) STS Debug Logging Level default (-stslogginglevel): 0 
+[2026/10/24@17:47:09.263+0200] P-10092      T-4540  I BROKER  0: (17556) Number of tables included in statistics collection (-tablerangesize): 50 
+[2026/10/24@17:47:09.263+0200] P-10092      T-4540  I BROKER  0: (19151) Threaded database server (-threadedServer): Not Enabled 
+[2026/10/24@17:47:09.263+0200] P-10092      T-4540  I BROKER  0: (19159) Thread stack size for threaded database servers (-threadedServerStack): 512Kb 
+[2026/10/24@17:47:09.263+0200] P-10092      T-4540  I BROKER  0: (18407) Number of indexes per user included in statistics collection (-userindexrangesize): 50 
+[2026/10/24@17:47:09.263+0200] P-10092      T-4540  I BROKER  0: (19089) Number of lobs per user included in statistics collection (-userlobrangesize): 50 
+[2026/10/24@17:47:09.263+0200] P-10092      T-4540  I BROKER  0: (18118) User Notification Time (-usernotifytime): 600 seconds 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (18405) Number of tables per user included in statistics collection (-usertablerangesize): 50 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (14017) Area block consistency check in area "" (-AreaCheck): Not Enabled 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (4239)  Number of Database Buffers (-B): 3000 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (17562) Number of Alternate Database Buffers (-B2): 0 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (9422)  Maximum private buffers per user (-Bpmax): 64 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (13869) Database Service Manager - Service(s) to start (-DBService): Not Enabled 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (10535) Enhanced Read-Only mode (-ERO): Not Enabled 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (4237)  Force Access (-F): Not Enabled 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (4249)  Before-Image Truncate Interval (-G): 0 
+[2026/10/24@17:47:09.264+0200] P-10092      T-4540  I BROKER  0: (4261)  Host Name (-H): DESKTOP-09IDAPF 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (14018) Index block consistency check in index "", partitionID -32767(-IndexCheck): Not Enabled 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (4241)  Current Size of Lock Table (-L): 8192 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (16688) Lock Governor (-LGovernor): 0% 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (4257)  Maximum Number of Clients Per Server (-Ma): 5 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (14015) Memory overwrite check (-MemCheck): Not Enabled 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (4245)  Delay of Before-Image Flush (-Mf): 3 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (4259)  Minimum Clients Per Server (-Mi): 1 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (12818) Message Buffer Size (-Mm): 8192 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (4258)  Maximum Number of Servers (-Mn): 5 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2026/10/24@17:47:09.265+0200] P-10092      T-4540  I BROKER  0: (5647)  Maximum Servers Per Broker (-Mpb): 0 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (4240)  Excess Shared Memory Size (-Mxs): 39 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (4263)  Network Type (-N): TCP 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (16954) Server network message wait time (-Nmsgwait): 2 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (10357) Pending client connection timeout (-PendConnTime): 0 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (4262)  Service Name (-S): 10000 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (17804) Broker server group support (-ServerType): BOTH 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (19342) SQL Autonomous Update Statistics (-SQLAutoStats): OFF 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (10028) SQL Server Max Open Cursors (-SQLCursors): 50 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (20037) SQL Enable Core Generation (-SQLEnableCoreGeneration): OFF 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (20038) SQL Failure Driven Log (-SQLFailureDrivenLog): OFF 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (17567) Number of seconds for a SQL client to wait for a lock conflict to be resolved (-SQLLockWaitTimeout): 5. 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (19134) SQL rowid identifier (-SQLQuotedRowid): Standard 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (10026) SQL Server Stack Size (-SQLStack): 1000 
+[2026/10/24@17:47:09.266+0200] P-10092      T-4540  I BROKER  0: (10027) SQL Server Statement Cache Size (-SQLStmtCache): 100 
+[2026/10/24@17:47:09.267+0200] P-10092      T-4540  I BROKER  0: (10029) Size [1K byte units] of SQL Server temp table buffer (-SQLTempBuff): 1000 
+[2026/10/24@17:47:09.267+0200] P-10092      T-4540  I BROKER  0: (10030) Size [1K byte units] of SQL Server temp table disk storage (-SQLTempDisk): 500000 
+[2026/10/24@17:47:09.267+0200] P-10092      T-4540  I BROKER  0: (10031) Size [1K byte units] of SQL Server temp table data page (-SQLTempPgSize): 8 
+[2026/10/24@17:47:09.267+0200] P-10092      T-4540  I BROKER  0: (17955) Authorized data truncation (-SQLTruncateTooLarge): OFF 
+[2026/10/24@17:47:09.267+0200] P-10092      T-4540  I BROKER  0: (18156) SQL Autonomous Schema Update (-SQLWidthUpdate): OFF 
+[2026/10/24@17:47:09.267+0200] P-10092      T-4540  I BROKER  0: (14019) Record block consistency check in table "", partitionID -32767(-TableCheck): Not Enabled 
+[2026/10/24@17:47:09.267+0200] P-10092      T-4540  I BROKER  0: (17717) TXE Lock retry limit (-TXERetryLimit): 0 
+[2026/10/24@17:47:09.267+0200] P-10092      T-4540  I BROKER  0: (13896) TXE Commit lock skip limit (-TXESkipLimit): 10000 
+[2026/10/24@17:47:09.279+0200] P-10092      T-4540  I BROKER  0: (10836) Database connections are not allowed at this time. 
+[2026/10/24@17:47:09.279+0200] P-10092      T-4540  I BROKER  0: (10471) Database connections have been enabled. 
+[2026/10/24@17:47:09.683+0200] P-8012       T-224   I SRV     1: (452)   Login by temp on CON:. 
+[2026/10/24@17:47:09.709+0200] P-8012       T-224   I SRV     1: (19552) Server with server num 1 logged in. 
+[2026/10/24@17:47:09.709+0200] P-8012       T-224   I SRV     1: (5646)  Started on port 3000 using TCP IPV4 address 127.0.0.1, pid 8012. 
+[2026/10/24@17:47:10.611+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 2, userid temp client type ABL , on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1. 
+[2026/10/24@17:47:10.611+0200] P-8012       T-224   I SRV     1: (7129)  Usr 2 set name to temp. 
+[2026/10/24@17:47:10.611+0200] P-8012       T-224   I SRV     1: (17961) User 2 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@17:47:10.637+0200] P-8012       T-224   I SRV     1: (7129)  Usr 2 set name to temp. 
+[2026/10/24@17:47:17.229+0200] P-9096       T-432   I SQLSRV2 3: (19262) SQL Server 12.8.00 started, configuration: "inventory.virtualconfig" 
+[2026/10/24@17:47:17.238+0200] P-9096       T-432   I SQLSRV2 3: (19552) SQL Server with server num 2 logged in.
+[2026/10/24@17:47:17.238+0200] P-9096       T-432   I SQLSRV2 3: (19265) "L:/AppHeap/github_repos/progress_hackathon/database/inventory/inventory" started on IPv4 port 3001 for address 127.0.0.1, pid 9096 (0x00002388).
+[2026/10/24@17:47:17.238+0200] P-9096       T-432   I SQLSRV2 3: (19263) Thread stack size:  1024000  (bytes).
+[2026/10/24@17:47:17.238+0200] P-9096       T-432   I SQLSRV2 3: (19270) DLC from ENVIRONMENT VARIABLE is: D:\Progress\OpenEdge
+[2026/10/24@17:47:17.238+0200] P-9096       T-432   I SQLSRV2 3: (19270) WRKDIR from REGISTRY is: C:\OpenEdge\WRK\
+[2026/10/24@17:47:17.238+0200] P-9096       T-432   I SQLSRV2 3: (19270) JDKHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@17:47:17.238+0200] P-9096       T-432   I SQLSRV2 3: (19270) JREHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\JDK-25~1.3
+[2026/10/24@17:47:17.239+0200] P-9096       T-432   I SQLSRV2 3: (19270) CLASSPATH from DEFAULT is: 
+[2026/10/24@17:47:17.239+0200] P-9096       T-432   I SQLSRV2 3: (19271) PROSQL_LOCKWAIT_TIMEOUT value is: 5 seconds
+[2026/10/24@17:47:17.261+0200] P-9096       T-432   I SQLSRV2 3: (19260) server control: JVM Parameter Monitoring Service start status= 0
+[2026/10/24@17:47:17.276+0200] P-9096       T-9668  I SQLSRV2 3: (19243) sql_engine: SQL service thread for client begun
+[2026/10/24@17:47:17.276+0200] P-9096       T-9668  I SQLSRV2 3: (19288) service name: JVM Param Service : Thread 9668 is executing.
+[2026/10/24@17:47:18.021+0200] P-9096       T-12500 I SQLSRV2 3: (8873)  Login usernum 4, remote SQL client. 
+[2026/10/24@17:47:18.041+0200] P-9096       T-12500 I SQLSRV2 3: (17961) User 4 set tty to 000free:50158. 
+[2026/10/24@17:47:18.041+0200] P-9096       T-12500 I SQLSRV2 3: (7129)  Usr 4 set name to temp. 
+[2026/10/24@17:47:18.041+0200] P-9096       T-12500 I SQLSRV2 3: (19205) SQLLockWaitTimeout 5 
+[2026/10/24@17:47:18.045+0200] P-9096       T-12500 I SQLSRV2 3: (19198) Login by user 4. Using TCP/IP IPV4 address 127.0.0.1
+[2026/10/24@20:50:24.310+0200] P-6112       T-10144 I SRV     5: (452)   Login by temp on CON:. 
+[2026/10/24@20:50:24.338+0200] P-6112       T-10144 I SRV     5: (19552) Server with server num 3 logged in. 
+[2026/10/24@20:50:24.338+0200] P-6112       T-10144 I SRV     5: (5646)  Started on port 3002 using TCP IPV4 address 127.0.0.1, pid 6112. 
+[2026/10/24@20:50:25.249+0200] P-6112       T-10144 I SRV     5: (742)   Login usernum 6, userid temp client type ABL , on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1. 
+[2026/10/24@20:50:25.249+0200] P-6112       T-10144 I SRV     5: (7129)  Usr 6 set name to temp. 
+[2026/10/24@20:50:25.249+0200] P-6112       T-10144 I SRV     5: (17961) User 6 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@20:50:25.266+0200] P-6112       T-10144 I SRV     5: (7129)  Usr 6 set name to temp. 
+[2026/10/24@21:00:13.514+0200] P-9368       T-6620  I SRV     7: (452)   Login by temp on CON:. 
+[2026/10/24@21:00:13.531+0200] P-9368       T-6620  I SRV     7: (19552) Server with server num 4 logged in. 
+[2026/10/24@21:00:13.531+0200] P-9368       T-6620  I SRV     7: (5646)  Started on port 3003 using TCP IPV4 address 127.0.0.1, pid 9368. 
+[2026/10/24@21:00:14.449+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASA, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-ResourceMgr. 
+[2026/10/24@21:00:14.449+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:00:14.449+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:00:14.466+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:00:14.472+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:00:14.594+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-4. 
+[2026/10/24@21:00:14.594+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:00:14.594+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:00:14.608+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:00:14.692+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-7. 
+[2026/10/24@21:00:14.692+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:00:14.692+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:00:14.711+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:01:27.151+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:01:27.154+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:01:27.223+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-8. 
+[2026/10/24@21:01:27.223+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:01:27.223+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:01:27.244+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:01:37.463+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-9. 
+[2026/10/24@21:01:37.463+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:01:37.463+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:01:37.480+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:14:47.856+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:14:47.859+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:14:47.932+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-10. 
+[2026/10/24@21:14:47.932+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:14:47.932+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:14:47.952+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:15:45.675+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:15:45.859+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-11. 
+[2026/10/24@21:15:45.859+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:15:45.859+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:15:45.878+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:15:57.215+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-12. 
+[2026/10/24@21:15:57.215+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:15:57.215+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:15:57.236+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:17:02.689+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:17:02.692+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:17:02.764+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-13. 
+[2026/10/24@21:17:02.764+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:17:02.765+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:17:02.787+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:17:21.531+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:17:21.606+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-14. 
+[2026/10/24@21:17:21.606+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:17:21.607+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:17:21.625+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:17:24.870+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-15. 
+[2026/10/24@21:17:24.870+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:17:24.870+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:17:24.888+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:20:02.700+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:20:02.702+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:20:02.769+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-16. 
+[2026/10/24@21:20:02.769+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:20:02.769+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:20:02.791+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:20:55.469+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:20:55.540+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-17. 
+[2026/10/24@21:20:55.540+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:20:55.540+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:20:55.558+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:21:14.364+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-18. 
+[2026/10/24@21:21:14.364+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:21:14.364+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:21:14.383+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@21:29:44.918+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:29:44.920+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:29:44.989+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-19. 
+[2026/10/24@21:29:44.989+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:29:44.989+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:29:45.006+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:59:16.336+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@21:59:16.440+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-20. 
+[2026/10/24@21:59:16.440+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@21:59:16.440+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@21:59:16.469+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:01:10.647+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:01:10.723+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-21. 
+[2026/10/24@22:01:10.723+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:01:10.723+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:01:10.746+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:01:44.303+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:01:44.379+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-22. 
+[2026/10/24@22:01:44.379+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:01:44.379+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:01:44.400+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:01:59.974+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-23. 
+[2026/10/24@22:01:59.974+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@22:01:59.974+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:01:59.991+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@22:04:44.247+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:04:44.250+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:04:44.328+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-24. 
+[2026/10/24@22:04:44.328+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:04:44.328+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:04:44.350+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:11:25.829+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:11:25.903+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-25. 
+[2026/10/24@22:11:25.904+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:11:25.904+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:11:25.924+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:12:00.473+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:12:00.549+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-26. 
+[2026/10/24@22:12:00.549+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:12:00.549+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:12:00.579+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:14:26.466+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:14:26.538+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-27. 
+[2026/10/24@22:14:26.538+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:14:26.538+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:14:26.557+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:15:01.341+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:15:01.413+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-28. 
+[2026/10/24@22:15:01.413+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:15:01.413+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:15:01.434+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:15:28.137+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:15:28.216+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-29. 
+[2026/10/24@22:15:28.216+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:15:28.216+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:15:28.237+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:16:22.257+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:16:22.331+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-30. 
+[2026/10/24@22:16:22.331+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:16:22.331+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:16:22.349+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:17:18.955+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:17:19.030+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-31. 
+[2026/10/24@22:17:19.030+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:17:19.030+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:17:19.050+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:42:44.430+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:42:44.536+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-32. 
+[2026/10/24@22:42:44.536+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:42:44.537+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:42:44.562+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:52:00.251+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:52:00.319+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-33. 
+[2026/10/24@22:52:00.319+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:52:00.319+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:52:00.338+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:59:16.826+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@22:59:16.944+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-34. 
+[2026/10/24@22:59:16.944+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@22:59:16.944+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@22:59:16.976+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:01:56.747+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:01:56.925+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-35. 
+[2026/10/24@23:01:56.925+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:01:56.925+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:01:56.944+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:02:12.902+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:02:12.976+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-36. 
+[2026/10/24@23:02:12.976+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:02:12.976+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:02:12.994+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:02:40.835+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:02:40.908+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-37. 
+[2026/10/24@23:02:40.908+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:02:40.908+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:02:40.926+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:03:17.329+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:03:17.397+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-38. 
+[2026/10/24@23:03:17.397+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:03:17.397+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:03:17.415+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:03:21.554+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-39. 
+[2026/10/24@23:03:21.554+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@23:03:21.554+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:03:21.571+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@23:04:47.289+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:04:47.292+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:04:47.377+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-40. 
+[2026/10/24@23:04:47.377+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:04:47.377+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:04:47.399+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:05:07.366+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:05:07.435+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-41. 
+[2026/10/24@23:05:07.436+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:05:07.436+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:05:07.455+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:05:35.036+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-42. 
+[2026/10/24@23:05:35.036+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@23:05:35.036+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:05:35.053+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@23:19:06.182+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:19:06.185+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:19:06.270+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-43. 
+[2026/10/24@23:19:06.270+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:19:06.270+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:19:06.290+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:19:36.669+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:19:36.760+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-44. 
+[2026/10/24@23:19:36.760+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:19:36.760+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:19:36.782+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:19:57.414+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:19:57.481+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-45. 
+[2026/10/24@23:19:57.481+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:19:57.481+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:19:57.506+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:20:21.216+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-46. 
+[2026/10/24@23:20:21.217+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@23:20:21.217+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:20:21.235+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@23:21:24.671+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:21:24.783+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/24@23:21:24.850+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-47. 
+[2026/10/24@23:21:24.850+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:21:24.850+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:21:24.871+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/24@23:21:41.376+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-48. 
+[2026/10/24@23:21:41.377+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/24@23:21:41.377+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/24@23:21:41.394+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+
+                Sun Oct 25 01:01:37 2026
+[2026/10/25@01:01:37.348+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/25@01:01:37.351+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/25@01:01:37.429+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-49. 
+[2026/10/25@01:01:37.429+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/25@01:01:37.429+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/25@01:01:37.451+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/25@01:02:48.564+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-50. 
+[2026/10/25@01:02:48.564+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/25@01:02:48.564+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/25@01:02:48.585+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/25@01:11:13.890+0200] P-9368       T-6620  I SRV     7: (739)   Logout usernum 8, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/25@01:11:13.892+0200] P-8012       T-224   I SRV     1: (739)   Logout usernum 9, userid SYSTEM, on DESKTOP-09IDAPF. 
+[2026/10/25@01:11:13.968+0200] P-9368       T-6620  I SRV     7: (742)   Login usernum 8, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-51. 
+[2026/10/25@01:11:13.968+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/25@01:11:13.968+0200] P-9368       T-6620  I SRV     7: (17961) User 8 set tty to DESKTOP-09IDAPF. 
+[2026/10/25@01:11:13.992+0200] P-9368       T-6620  I SRV     7: (7129)  Usr 8 set name to SYSTEM. 
+[2026/10/25@01:11:26.431+0200] P-8012       T-224   I SRV     1: (742)   Login usernum 9, userid SYSTEM client type PASN, on DESKTOP-09IDAPF using TCP/IP IPV4 address 127.0.0.1 0:DESKTOP-09IDAPF:12404:AS-52. 
+[2026/10/25@01:11:26.431+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
+[2026/10/25@01:11:26.431+0200] P-8012       T-224   I SRV     1: (17961) User 9 set tty to DESKTOP-09IDAPF. 
+[2026/10/25@01:11:26.448+0200] P-8012       T-224   I SRV     1: (7129)  Usr 9 set name to SYSTEM. 
