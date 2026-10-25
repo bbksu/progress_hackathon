@@ -56,48 +56,63 @@ CLASS ProductsWebHandler INHERITS WebHandler:
    	END METHOD.
  	
 	
-	/*------------------------------------------------------------------------------
+    /*------------------------------------------------------------------------------
             Purpose: Default handler for the HTTP GET method. The request being 
                      serviced and an optional status code is returned. A zero or 
                      null value means this method will deal with all errors.                                                               
             Notes:                                                                        
     ------------------------------------------------------------------------------*/
- 	METHOD OVERRIDE PROTECTED INTEGER HandleGet( INPUT poRequest AS OpenEdge.Web.IWebRequest ):
- 	
-	
-         DEFINE VARIABLE oResponse  AS OpenEdge.Net.HTTP.IHttpResponse NO-UNDO.
-         DEFINE VARIABLE oWriter    AS OpenEdge.Web.WebResponseWriter  NO-UNDO.
-         DEFINE VARIABLE oBody      AS OpenEdge.Core.String            NO-UNDO.
-         DEFINE VARIABLE oJson      AS JsonObject                      NO-UNDO.        
-         DEFINE VARIABLE getorderID AS CHARACTER                       NO-UNDO.
-         DEFINE VARIABLE cURI       AS CHARACTER                       NO-UNDO.
-        ASSIGN 
+    METHOD OVERRIDE PROTECTED INTEGER HandleGet( INPUT poRequest AS OpenEdge.Web.IWebRequest ):
+    
+    
+        DEFINE VARIABLE oResponse  AS OpenEdge.Net.HTTP.IHttpResponse NO-UNDO.
+        DEFINE VARIABLE oWriter    AS OpenEdge.Web.WebResponseWriter  NO-UNDO.
+        DEFINE VARIABLE oBody      AS OpenEdge.Core.String            NO-UNDO.
+        DEFINE VARIABLE oJson      AS JsonObject                      NO-UNDO.        
+        DEFINE VARIABLE getSKU AS CHARACTER                       NO-UNDO.
+        DEFINE VARIABLE cURI       AS CHARACTER                       NO-UNDO.     
+         
+                 ASSIGN 
             oResponse            = NEW OpenEdge.Web.WebResponse()
             oResponse:StatusCode = INTEGER(StatusCodeEnum:OK)            .
-                      
+        getSKU = poRequest:GetPathParameter("SKU").
+        oJson = NEW JsonObject().
+             
+         ASSIGN 
+             cURI = STRING(poRequest:URI).
+         LOG-MANAGER:WRITE-MESSAGE(
+             "Also prodcuts=" + getSKU + " URL=" + cURI
+             ).
+             
+        FIND FIRST inventory.Product 
+        WHERE inventory.Product.SKU = getSKU 
+        NO-LOCK NO-ERROR.
+        IF AVAILABLE inventory.Product THEN DO:
+            oJson:Add(
+                "SKU",
+                inventory.Product.SKU
+                ).
 
+            oJson:Add(
+                "Description",
+                inventory.Product.Description
+                ).
+
+            oJson:Add(
+                "UnitCost",
+                inventory.Product.UnitCost
+                ).
+        END.
         ASSIGN 
-            oResponse:Entity        = oBody
-            /* HTTP messages require a content type */
-            oResponse:ContentType   = 'text/plain':u
-            /* ContentLength is good too */
-            oResponse:ContentLength = oBody:Size
-            .
-        
-        /* The WebResponseWriter ensures that the status line and
-           all headers are writted out before the message body/entity. */
+             oResponse:StatusCode = 200.
+         oResponse:ContentType = "application/json".
+         oResponse:Entity = oJson.
         ASSIGN 
             oWriter = NEW WebResponseWriter(oResponse).
-        oWriter:Open().
-        
-        /* Finish writing the response message */
+        oWriter:Open().        
         oWriter:Close().
         
-        /* A response of 0 means that this handler will build the entire response;
-           a non-zero value is mapped to a static handler in the webapp's /static/error folder.
-           The mappings are maintained in the webapps's WEB-INF/web.xml 
-           A predefined set of HTTP status codes is provided in the OpenEdge.Net.HTTP.StatusCodeEnum 
-           enumeration */
+   
         RETURN 0.
 		
  	END METHOD. 
