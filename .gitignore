@@ -5,3 +5,4 @@ process.qmd
 commands.qmd
 database/test.csv
 *.csv#
+*.csv
