@@ -142,11 +142,9 @@ CLASS APIHandler INHERITS WebHandler:
         oResponse:Entity = oJson.        
         ASSIGN 
             oWriter = NEW WebResponseWriter(oResponse).
-        oWriter:Open().       
+        oWriter:Open().
         
-        oWriter:Close().
-        
-        
+        oWriter:Close().        
         RETURN 0.
 		
     END METHOD. 

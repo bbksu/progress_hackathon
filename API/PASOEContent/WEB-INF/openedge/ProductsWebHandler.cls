@@ -63,21 +63,17 @@ CLASS ProductsWebHandler INHERITS WebHandler:
             Notes:                                                                        
     ------------------------------------------------------------------------------*/
     METHOD OVERRIDE PROTECTED INTEGER HandleGet( INPUT poRequest AS OpenEdge.Web.IWebRequest ):
-    
-    
         DEFINE VARIABLE oResponse  AS OpenEdge.Net.HTTP.IHttpResponse NO-UNDO.
         DEFINE VARIABLE oWriter    AS OpenEdge.Web.WebResponseWriter  NO-UNDO.
         DEFINE VARIABLE oBody      AS OpenEdge.Core.String            NO-UNDO.
         DEFINE VARIABLE oJson      AS JsonObject                      NO-UNDO.        
         DEFINE VARIABLE getSKU AS CHARACTER                       NO-UNDO.
-        DEFINE VARIABLE cURI       AS CHARACTER                       NO-UNDO.     
-         
+        DEFINE VARIABLE cURI       AS CHARACTER                       NO-UNDO.         
                  ASSIGN 
             oResponse            = NEW OpenEdge.Web.WebResponse()
             oResponse:StatusCode = INTEGER(StatusCodeEnum:OK)            .
         getSKU = poRequest:GetPathParameter("SKU").
-        oJson = NEW JsonObject().
-             
+        oJson = NEW JsonObject().             
          ASSIGN 
              cURI = STRING(poRequest:URI).
          LOG-MANAGER:WRITE-MESSAGE(
@@ -111,10 +107,7 @@ CLASS ProductsWebHandler INHERITS WebHandler:
             oWriter = NEW WebResponseWriter(oResponse).
         oWriter:Open().        
         oWriter:Close().
-        
-   
-        RETURN 0.
-		
+        RETURN 0.		
  	END METHOD. 
  	
  	
