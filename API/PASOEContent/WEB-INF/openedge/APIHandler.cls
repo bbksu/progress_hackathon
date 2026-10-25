@@ -14,6 +14,8 @@ USING OpenEdge.Web.WebResponseWriter.
 USING OpenEdge.Net.HTTP.StatusCodeEnum.
 USING OpenEdge.Web.WebHandler.
 USING Progress.Json.ObjectModel.JsonObject.
+USING OpenEdge.Web.WebRequest FROM PROPATH.
+USING System.Net.WebRequestMethods+Http FROM ASSEMBLY.
 
 BLOCK-LEVEL ON ERROR UNDO, THROW.
 
@@ -67,6 +69,8 @@ CLASS APIHandler INHERITS WebHandler:
         DEFINE VARIABLE oWriter   AS OpenEdge.Web.WebResponseWriter  NO-UNDO.
         DEFINE VARIABLE oBody     AS OpenEdge.Core.String            NO-UNDO.
         DEFINE VARIABLE oJson AS JsonObject NO-UNDO.
+        DEFINE VARIABLE csku AS CHARACTER NO-UNDO.
+        DEFINE VARIABLE getorderID AS CHARACTER NO-UNDO.
                     
         /* The WebResponse body is a wrapper around an entire HTTP response message.
            It contains a status code and reason; headers; cookies and a message body.
@@ -75,25 +79,58 @@ CLASS APIHandler INHERITS WebHandler:
            https://documentation.progress.com/output/oehttpclient/      */
         ASSIGN 
             oResponse            = NEW OpenEdge.Web.WebResponse()
-            oResponse:StatusCode = INTEGER(StatusCodeEnum:OK)
-            .
+            oResponse:StatusCode = INTEGER(StatusCodeEnum:OK).
         oJson = NEW JsonObject().
- 
+        
+        
         oJson:Add("status","success").
         oJson:Add("message","GET received").
- 
+        
+         
+        getorderID = poRequest:GetPathParameter("OrderID").
+        LOG-MANAGER:WRITE-MESSAGE(
+            "About to FIND CustomerOrder"
+            ).
+        LOG-MANAGER:WRITE-MESSAGE(
+            "Also OrderID =" + getorderID
+            ).
+
+        oJson = NEW JsonObject().
+        getorderID = poRequest:GetPathParameter("OrderID").
+         
+        FIND FIRST inventory.CustomerOrder 
+            WHERE inventory.CustomerOrder.OrderID = getorderID 
+            NO-LOCK NO-ERROR.
+        IF AVAILABLE inventory.CustomerOrder THEN
+        DO:
+            oJson:Add(
+                "OrderID",
+                inventory.CustomerOrder.OrderID
+                ).
+
+            oJson:Add(
+                "LocationID",
+                inventory.CustomerOrder.LocationID
+                ).
+
+            oJson:Add(
+                "Status",
+                inventory.CustomerOrder.OrderStatus
+                ).
+
+            oJson:Add(
+                "CreatedAt",
+                STRING(inventory.CustomerOrder.CreatedAt)
+                ).
+        END.
         oResponse:StatusCode = 200.
         oResponse:ContentType = "application/json".
         oResponse:Entity = oJson.
-            .
-        
         /* The WebResponseWriter ensures that the status line and
            all headers are writted out before the message body/entity. */
         ASSIGN 
             oWriter = NEW WebResponseWriter(oResponse).
-        oWriter:Open().
-        
-        
+        oWriter:Open().       
         /* Finish writing the response message */
         oWriter:Close().
         
