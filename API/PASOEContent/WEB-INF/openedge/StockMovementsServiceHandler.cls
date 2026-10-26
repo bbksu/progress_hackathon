@@ -15,7 +15,6 @@ USING OpenEdge.Net.HTTP.StatusCodeEnum.
 USING OpenEdge.Web.WebHandler.
 USING Progress.Json.ObjectModel.JsonObject.
 USING OpenEdge.Web.WebRequest FROM PROPATH.
-USING System.Net.WebRequestMethods+Http FROM ASSEMBLY.
 
 BLOCK-LEVEL ON ERROR UNDO, THROW.
 
@@ -77,16 +76,19 @@ CLASS StockMovementsServiceHandler INHERITS WebHandler:
             cURI = STRING(poRequest:URI).
         oJson = NEW JsonObject().
         
-         DEFINE VARIABLE getSKU        AS CHARACTER NO-UNDO.
          DEFINE VARIABLE getLocationID AS CHARACTER NO-UNDO.
-
-         getSKU =
-             poRequest:GetPathParameter("SKU").
+         DEFINE VARIABLE getSKU        AS CHARACTER NO-UNDO.         
 
          getLocationID =
-             poRequest:GetPathParameter("LocationID").
-
-         IF cURI MATCHES "*stock-movements/getSKU" THEN 
+             poRequest:GetPathParameter("LLD").
+         getSKU =
+             poRequest:GetPathParameter("SKU").
+         
+         LOG-MANAGER:WRITE-MESSAGE(
+             " URL=" + STRING (poRequest:URI) + " " + "getSKU=" + getSKU + " " + "locationID=" + getLocationID
+             + " " + "*stockmovements/" + getSKU + "/" + getLocationID + " curi=" + STRING (cURI)
+             ).
+         IF cURI MATCHES "*stockmovements/*/*" THEN 
          DO:
 
              FIND FIRST inventory.StockMovement
@@ -113,7 +115,7 @@ CLASS StockMovementsServiceHandler INHERITS WebHandler:
 
          END.
 
-         ELSE 
+         ELSE
          DO:
 
              FIND FIRST inventory.StockMovement
