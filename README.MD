@@ -1,8 +1,211 @@
 # Progress hackathon project
 
+## Overview
+
+AI Powered Inventory Operations agent is a natural language interface for
+inventory, purchasing, receiving and exception management workflows.
+
+The system allows users to ask operational questions in plain
+language while an AI orchestrator retrieves data from OpenEdge REST APIs,
+analyzes the results and generates evidence based answers.
+
+The solution is designed for warehouse operations, retail distribution,
+inventory control, purchasing, supply chain management and exception investigation.
+
+## Problem Statement
+
+Organizations often store inventory data across multiple operational tables,
+screens, reports and applications.
+
+Answering even simple questions may require personnel to manually:
+
+- Search inventory records
+- Review purchase orders
+- Inspect receipts
+- Analyze inventory movements
+- Investigate exceptions
+- Correlate multiple transactions
+
+This process is:
+
+- Time consuming
+- Error prone
+- Difficult for new users
+- Dependent on specialist knowledge
+
+The objective of this project is to reduce investigation time and improve
+operational visibility by allowing users to ask questions using natural
+language.
+
+---
+
+## Solution
+
+The system provides an AI driven investigation layer on top of OpenEdge
+business services.
+
+Instead of manually navigating multiple application screens and systems, users can ask:
+
+- Why does inventory exception 500 exist?
+
+- Where is purchase order PO-12345?
+
+- Why has customer order 987 not shipped?
+
+- What inventory movements affected SKU ABC123?
+
+The AI orchestrator retrieves the required information from approved REST
+endpoints and generates an explanation supported by source data.
+
+---
+## Inventory Visibility
+
+### Objective
+
+Provide insight into inventory levels and stock movement activity.
+
+### Example Questions
+
+- Where is SKU ABC123 currently located?
+- Which locations contain SKU ABC123?
+- What movements affected SKU ABC123 today?
+- Why is inventory decreasing?
+
+### Data Sources
+
+- InventorySnapshot
+- StockMovement
+- Location
+
+### Benefits
+
+- Faster inventory analysis
+- Reduced manual investigation
+- Improved stock visibility
+
+---
+
+## Inventory Exception Investigation
+
+### Objective
+
+Determine why inventory discrepancies occurred.
+
+### Example Questions
+
+- Why does exception 500 exist?
+- What transactions contributed to this exception?
+- Has this exception been validated?
+
+### Data Sources
+
+- InventoryException
+- StockMovement
+- Receipt
+- CustomerOrder
+
+### Benefits
+
+- Faster root cause analysis
+- Improved inventory accuracy
+- Reduced operational workload
+
+---
+
+## Purchase Order Tracking
+
+### Objective
+
+Monitor purchase order lifecycle and receiving status.
+
+### Example Questions
+
+- Has purchase order PO-100 been received?
+- What quantities remain outstanding?
+- Which supplier is associated with this PO?
+
+### Data Sources
+
+- PurchaseOrder
+- PurchaseOrderLine
+- Receipt
+- ReceiptLine
+- Supplier
+
+### Benefits
+
+- Improved purchasing visibility
+- Reduced follow up effort
+- Faster supplier investigations
+
+---
+
+## Receiving Verification
+
+### Objective
+
+Validate received quantities against ordered quantities.
+
+### Example Questions
+
+- Did receipt R500 match the purchase order?
+- Which SKUs were partially received?
+- Which receipts have discrepancies?
+
+### Data Sources
+
+- Receipt
+- ReceiptLine
+- PurchaseOrderLine
+
+### Benefits
+
+- Improved receiving accuracy
+- Faster discrepancy detection
+
+---
+
+## Order Fulfillment Analysis
+
+### Objective
+
+Understand customer order status and fulfillment issues.
+
+### Example Questions
+
+- Why has order O100 not shipped?
+- Is sufficient inventory available?
+- Which order lines are delayed?
+
+### Data Sources
+
+- CustomerOrder
+- OrderLine
+- InventorySnapshot
+- StockMovement
+
+### Benefits
+
+- Faster customer support
+- Better order visibility
+- Reduced fulfillment delays
+
+---
+
+## Target Industries
+
+This solution may be applicable to:
+
+- **Retail**
+- Distribution
+- Warehousing
+- Logistics
+- Manufacturing
+- Supply Chain Operations
+
 ## How it works
 
-![](diagrams/how_it_works_example.png)
+![](how_it_works_example.png)
 
 ## Prerequisites
 
@@ -115,9 +318,14 @@ python -m pip install -r ./frontend/requirements.txt
 Copy your **API key and save it as** `GEMINI_API_KEY`, as an environment variable.
 
 ## How to Run the project
+- Console only:
 
 ```         
-python ./frontend/frontend_mimic.py
+python ./frontend/agent.py
 ```
+- Browser only:
 
-Make a query
+```
+python ./frontend/run_frontend.py
+
+```
