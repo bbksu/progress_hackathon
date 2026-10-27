@@ -1,12 +1,8 @@
 # Progress hackathon project
 
-## Overview
-
 AI Powered Inventory Operations copilot is a natural language interface for inventory, purchasing, receiving and exception management workflows.
 
-The system allows users to ask operational questions in plain language while an AI orchestrator retrieves data from OpenEdge REST APIs, analyzes the results and generates evidence based answers.
-
-The solution is designed for warehouse operations, retail distribution, inventory control, purchasing, supply chain management and exception investigation.
+**Team**: Team lone wolf. **Members:** Brandon Sunguti. **Demo video**:`Demo/demo_video.mp4`
 
 ## Problem Statement
 
@@ -32,7 +28,7 @@ The objective of this project is to reduce investigation time and improve operat
 
 ------------------------------------------------------------------------
 
-## Solution
+## What was built
 
 The system provides an AI driven investigation layer on top of OpenEdge business services.
 
@@ -49,80 +45,38 @@ Instead of manually navigating multiple application screens and systems, users c
 The AI orchestrator retrieves the required information from approved REST endpoints and generates an explanation supported by source data.
 
 ---
-## Inventory Visibility
+### Inventory Visibility
 
-### Objective
+#### Objective
 
 Provide insight into inventory levels and stock movement activity.
 
-### Example Questions
-
-- Where is SKU ABC123 currently located?
-- Which locations contain SKU ABC123?
-- What movements affected SKU ABC123 today?
-- Why is inventory decreasing?
-
-### Data Sources
-
-- InventorySnapshot
-- StockMovement
-- Location
-
-### Benefits
+#### Benefits
 
 - Faster inventory analysis
 - Reduced manual investigation
-- Improved stock visibility
 ---
 
-## Inventory Exception Investigation
+### Inventory Exception Investigation
 
-### Objective
+#### Objective
 
 Determine why inventory discrepancies occurred.
 
-### Example Questions
-
-- Why does exception 500 exist?
-- What transactions contributed to this exception?
-- Has this exception been validated?
-
-### Data Sources
-
-- InventoryException
-- StockMovement
-- Receipt
-- CustomerOrder
-
-### Benefits
+#### Benefits
 
 - Faster root cause analysis
 - Improved inventory accuracy
-- Reduced operational workload
 
 ------------------------------------------------------------------------
 
-## Purchase Order Tracking
+### Purchase Order Tracking
 
-### Objective
+#### Objective
 
 Monitor purchase order lifecycle and receiving status.
 
-### Example Questions
-
-- Has purchase order PO-100 been received?
-- What quantities remain outstanding?
-- Which supplier is associated with this PO?
-
-### Data Sources
-
-- PurchaseOrder
-- PurchaseOrderLine
-- Receipt
-- ReceiptLine
-- Supplier
-
-### Benefits
+#### Benefits
 
 - Improved purchasing visibility
 - Reduced follow up effort
@@ -130,51 +84,26 @@ Monitor purchase order lifecycle and receiving status.
 
 ------------------------------------------------------------------------
 
-## Receiving Verification
+### Receiving Verification
 
-### Objective
+#### Objective
 
 Validate received quantities against ordered quantities.
 
-### Example Questions
-
-- Did receipt R500 match the purchase order?
-- Which SKUs were partially received?
-- Which receipts have discrepancies?
-
-### Data Sources
-
-- Receipt
-- ReceiptLine
-- PurchaseOrderLine
-
-### Benefits
+#### Benefits
 
 - Improved receiving accuracy
 - Faster discrepancy detection
 
 ------------------------------------------------------------------------
 
-## Order Fulfillment Analysis
+### Order Fulfillment Analysis
 
-### Objective
+#### Objective
 
 Understand customer order status and fulfillment issues.
 
-### Example Questions
-
-- Why has order O100 not shipped?
-- Is sufficient inventory available?
-- Which order lines are delayed?
-
-### Data Sources
-
-- CustomerOrder
-- OrderLine
-- InventorySnapshot
-- StockMovement
-
-### Benefits
+#### Benefits
 
 - Faster customer support
 - Better order visibility
@@ -182,11 +111,10 @@ Understand customer order status and fulfillment issues.
 
 ------------------------------------------------------------------------
 
-## Target Industries
+### Target Industries
 
-This solution may be applicable to:
+This solution is intended for **Retail but** may be applicable to:
 
-- **Retail**
 - Distribution
 - Warehousing
 - Logistics
@@ -197,15 +125,15 @@ This solution may be applicable to:
 
 ![](how_it_works_example.png)
 
-## Prerequisites
+## How to setup
+
+### Prerequisites
 
 - Python 3.11 - 3.14
 
 - Progress OpenEdge 12.8
 
-- PlantUML (diagrams)
-
-## How to setup
+- PlantUML (for diagrams)
 
 ### Setup the Progress Application Server
 
@@ -213,17 +141,23 @@ This solution may be applicable to:
 
 - Make a name for your PAS.
 
-  ```         
-  set PASinstancename=htonPAS
-  ```
+```         
+set PASinstancename=htonPAS
+```
 
-- Create the PAS instance.
+### Create the PAS instance.
 
-  ```         
-  pasman create -v -f %PASinstancename%
-  ```
+```         
+pasman create -v -f %PASinstancename%
+```
 
-### Import the project.
+### Clone the repo
+
+``` bash
+git clone https://github.com/bbksu/progress_hackathon
+```
+
+### Import the project
 
 - Start Progress Developer Studio.
 
@@ -241,39 +175,41 @@ This solution may be applicable to:
 
 - Add and Remove -\> Add all -\> Finish.
 
-### Start the PAS server.
+### Start the PAS server
 
 - In OpenEdge Server Perspective.
 
 - Right Click the PAS server instances -\> Start server or press `Ctrl + Alt + R`.
 
-### Connect the database
+### Start the database server
 
 - Start `proenv`
 
 - Navigate to the database directory:
 
-  ``` shell
-  cd "database/inventory"
-  ```
+``` shell
+cd "progress_hackathon/database/inventory"
+```
 
 - Start the database server for the `inventory` database:
 
-  ``` shell
-  proserve inventory -H localhost -S 13000
-  ```
+``` shell
+proserve inventory -H localhost -S 13000
+```
+
+### Connect the database
 
 - In OpenEdge Server Perspective.
 
 - Right Click the PAS server instance -\> Open -\> Click Open launch configuration -\> Databases -\> Configure Database connections -\> New
 
-  - Connection Name: htondb
+  - Connection Name: `htondb`
 
-  - physical name: "..\progress\_hackathon\database\inventory\inventory.db"
+  - physical name: `..\progress_hackathon\database\inventory\inventory.db`
 
-  - Hostname: localhost
+  - Hostname: `localhost`
 
-  - Service/Port: 13000
+  - Service/Port: `13000`
 
 - Test Connection. -\> Next -\> Next -\> Next -\> Auto-Shutdown database server -\> Finish. -\> Apply and Close.
 
@@ -337,7 +273,7 @@ cd frontend
 python run_frontend.py
 ```
 
-### Example prompts:
+### Example prompts to try:
 
 - Is SUP-0005 a good supplier?
 - Why is EXC-0000081 giving us problems?
@@ -348,3 +284,33 @@ python run_frontend.py
 - Can you look at the first 4 suppliers and order them by the fastest?
 - Can you give me therapy if EXC-0000081 is a problem?
 - give me details about the 2nd and 4th orders including what was purchased
+
+## Demo
+
+[Demo video](https://github.com/bbksu/progress_hackathon/raw/refs/heads/master/Demo/demo_video.mp4)
+
+### Challenges and learnings.
+
+#### Challenges
+
+- Connecting PAS and database.
+
+- Troubleshooting tomcat server and OpenEdge explorer.
+
+#### Learning
+
+- ABL syntax.
+
+- ABL services with the WEB transport
+
+- How to use OpenEdge Dictionary.
+
+### What needs Improvement.
+
+- Manipulate strings
+
+- Working with lists
+
+- Working with Posts using JSON objects.
+
+## What's next
