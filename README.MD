@@ -30,7 +30,7 @@ The objective of this project is to reduce investigation time and improve operat
 
 ## What was built
 
-The system provides an AI driven investigation layer on top of OpenEdge business services.
+The system provides an AI driven investigation layer on top of OpenEdge.
 
 Instead of manually navigating multiple application screens and systems, users can ask:
 
