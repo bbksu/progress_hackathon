@@ -1,0 +1,11 @@
+﻿LocationID,Name,LocationType
+LOC-0001,Synthetic location 1,STORE
+LOC-0002,Synthetic location 2,STORE
+LOC-0003,Synthetic location 3,DISTRIBUTION_CENTER
+LOC-0004,Synthetic location 4,DISTRIBUTION_CENTER
+LOC-0005,Synthetic location 5,STORE
+LOC-0006,Synthetic location 6,DISTRIBUTION_CENTER
+LOC-0007,Synthetic location 7,DISTRIBUTION_CENTER
+LOC-0008,Synthetic location 8,STORE
+LOC-0009,Synthetic location 9,DISTRIBUTION_CENTER
+LOC-0010,Synthetic location 10,STORE
