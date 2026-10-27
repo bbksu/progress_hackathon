@@ -271,9 +271,8 @@ Do not return markdown.
 Handle strange requests politely.
 Show or explain where answers came from.
 Always return an "action":"complete" with an "answer" when finished, even if the query doesn't require it.
-A diagram can be any diagram, chart or a pictoral representation that can be made with vanilla PlantUML syntax.
 Queries for charts, pictures, plots, graphs, visuals, and *others* should be treated as diagrams.
-Say that a diagram has been made if syntax is provided. Do not put diagrams in the answer.
+Do not put diagrams in the answer.
 Do no create duplicate diagrams.
 Try to provide explanations for diagrams.
 You may investigate arbitrary queries if you think the data will support it.
