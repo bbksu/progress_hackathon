@@ -287,7 +287,7 @@ python run_frontend.py
 
 ## Demo
 
-[Demo video](https://github.com/bbksu/progress_hackathon/raw/refs/heads/master/Demo/demo_video.mp4)
+[![Watch the video]()](https://github.com/bbksu/progress_hackathon/raw/refs/heads/master/Demo/demo_video.mp4)
 
 ### Challenges and learnings.
 
