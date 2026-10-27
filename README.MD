@@ -284,6 +284,8 @@ python run_frontend.py
 - Can you look at the first 4 suppliers and order them by the fastest?
 - Can you give me therapy if EXC-0000081 is a problem?
 - give me details about the 2nd and 4th orders including what was purchased
+- what is the problem with EXC-0000085 and can you make a visual?
+
 
 ## Demo
 
