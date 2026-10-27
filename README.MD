@@ -296,13 +296,13 @@ This solution may be applicable to:
 ### Install Python packages
 
 ``` shell
-pip install -r ./frontend/requirements.txt
+pip install -r frontend/requirements.txt
 ```
 
 or
 
 ``` shell
-python -m pip install -r ./frontend/requirements.txt
+python -m pip install -r frontend/requirements.txt
 ```
 
 ### Create a Gemini API Key
@@ -321,11 +321,21 @@ Copy your **API key and save it as** `GEMINI_API_KEY`, as an environment variabl
 - Console only:
 
 ```         
-python ./frontend/agent.py
+python frontend/agent.py
 ```
 - Browser only:
 
 ```
-python ./frontend/run_frontend.py
+python frontend/run_frontend.py
 
 ```
+### Example prompts:
+- Is SUP-0005 a good supplier?
+- Why is EXC-0000081 giving us problems?
+- Why is EXC-0000475 such an issue? And can it be resolved? And  is there possibly some fraud happening?
+- What is happening with EXC-0000039? Can you show a mapping of it to make it clear?
+- What does PurchaseOrder PO-0000014 look like as a diagram?
+- Can you lookup 2 random EXC and see which have Values above 50?
+- Can you look at the first 4 suppliers and order them by the fastest?
+- Can you give me therapy if EXC-0000081 is a problem?
+- give me details about the 2nd and 4th orders including what was purchased
