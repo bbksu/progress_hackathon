@@ -88,7 +88,7 @@
 
 ### Install Python packages
 
-``` .shell
+``` shell
 pip install -r ./frontend/requirements.txt
 ```
 
@@ -96,4 +96,22 @@ or
 
 ``` shell
 python -m pip install -r ./frontend/requirements.txt
+```
+
+### Create a Gemini API Key
+
+- Go to [Google AI Studio](https://aistudio.google.com/app/apikey) and log in with your Google account.
+
+- Open the **API Keys** section from the dashboard menu.
+
+- Click **Create API key.**
+
+### Add environment variables
+
+Copy your **API key and save it as** `GEMINI_API_KEY`, as an environment variable.
+
+## Run the project
+
+```         
+python ./frontend/frontend_mimic.py
 ```
