@@ -329,8 +329,12 @@ python frontend/agent.py
   - Browser mode supports diagrams showing.
   - Diagrams require PlantUML to be in path
 
+``` shell
+cd frontend
+```
+
 ```         
-python frontend/run_frontend.py
+python run_frontend.py
 ```
 
 ### Example prompts:
