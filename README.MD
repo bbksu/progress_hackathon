@@ -316,3 +316,5 @@ python run_frontend.py
 - Working with Posts using JSON objects.
 
 ## What's next
+- Low rate Search endpoint
+- AI makes Post requests to the backend.
