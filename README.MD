@@ -2,20 +2,15 @@
 
 ## Overview
 
-AI Powered Inventory Operations agent is a natural language interface for
-inventory, purchasing, receiving and exception management workflows.
+AI Powered Inventory Operations copilot is a natural language interface for inventory, purchasing, receiving and exception management workflows.
 
-The system allows users to ask operational questions in plain
-language while an AI orchestrator retrieves data from OpenEdge REST APIs,
-analyzes the results and generates evidence based answers.
+The system allows users to ask operational questions in plain language while an AI orchestrator retrieves data from OpenEdge REST APIs, analyzes the results and generates evidence based answers.
 
-The solution is designed for warehouse operations, retail distribution,
-inventory control, purchasing, supply chain management and exception investigation.
+The solution is designed for warehouse operations, retail distribution, inventory control, purchasing, supply chain management and exception investigation.
 
 ## Problem Statement
 
-Organizations often store inventory data across multiple operational tables,
-screens, reports and applications.
+Organizations often store inventory data across multiple operational tables, screens, reports and applications.
 
 Answering even simple questions may require personnel to manually:
 
@@ -33,16 +28,13 @@ This process is:
 - Difficult for new users
 - Dependent on specialist knowledge
 
-The objective of this project is to reduce investigation time and improve
-operational visibility by allowing users to ask questions using natural
-language.
+The objective of this project is to reduce investigation time and improve operational visibility by allowing users to ask questions using natural language.
 
----
+------------------------------------------------------------------------
 
 ## Solution
 
-The system provides an AI driven investigation layer on top of OpenEdge
-business services.
+The system provides an AI driven investigation layer on top of OpenEdge business services.
 
 Instead of manually navigating multiple application screens and systems, users can ask:
 
@@ -54,8 +46,7 @@ Instead of manually navigating multiple application screens and systems, users c
 
 - What inventory movements affected SKU ABC123?
 
-The AI orchestrator retrieves the required information from approved REST
-endpoints and generates an explanation supported by source data.
+The AI orchestrator retrieves the required information from approved REST endpoints and generates an explanation supported by source data.
 
 ---
 ## Inventory Visibility
@@ -82,7 +73,6 @@ Provide insight into inventory levels and stock movement activity.
 - Faster inventory analysis
 - Reduced manual investigation
 - Improved stock visibility
-
 ---
 
 ## Inventory Exception Investigation
@@ -110,7 +100,7 @@ Determine why inventory discrepancies occurred.
 - Improved inventory accuracy
 - Reduced operational workload
 
----
+------------------------------------------------------------------------
 
 ## Purchase Order Tracking
 
@@ -138,7 +128,7 @@ Monitor purchase order lifecycle and receiving status.
 - Reduced follow up effort
 - Faster supplier investigations
 
----
+------------------------------------------------------------------------
 
 ## Receiving Verification
 
@@ -163,7 +153,7 @@ Validate received quantities against ordered quantities.
 - Improved receiving accuracy
 - Faster discrepancy detection
 
----
+------------------------------------------------------------------------
 
 ## Order Fulfillment Analysis
 
@@ -190,7 +180,7 @@ Understand customer order status and fulfillment issues.
 - Better order visibility
 - Reduced fulfillment delays
 
----
+------------------------------------------------------------------------
 
 ## Target Industries
 
@@ -267,8 +257,6 @@ This solution may be applicable to:
   cd "database/inventory"
   ```
 
-<!-- -->
-
 - Start the database server for the `inventory` database:
 
   ``` shell
@@ -317,22 +305,39 @@ python -m pip install -r frontend/requirements.txt
 
 Copy your **API key and save it as** `GEMINI_API_KEY`, as an environment variable.
 
+### Add PlantUML to PATH (Optional)
+
+- Download [PlantUml](https://plantuml.com/download)
+
+- Move the `plantuml.jar`to a directory like C:\\temp.
+
+- Create a file called `plantuml.cmd`
+
+- Add `java -jar C:temp/plantuml.jar $1`into `plantuml.cmd`
+
+- Add `plantuml.cmd`to`PATH`
+
 ## How to Run the project
+
 - Console only:
 
 ```         
 python frontend/agent.py
 ```
+
 - Browser only:
+  - Browser mode supports diagrams showing.
+  - Diagrams require PlantUML to be in path
 
-```
+```         
 python frontend/run_frontend.py
-
 ```
+
 ### Example prompts:
+
 - Is SUP-0005 a good supplier?
 - Why is EXC-0000081 giving us problems?
-- Why is EXC-0000475 such an issue? And can it be resolved? And  is there possibly some fraud happening?
+- Why is EXC-0000475 such an issue? And can it be resolved? And is there possibly some fraud happening?
 - What is happening with EXC-0000039? Can you show a mapping of it to make it clear?
 - What does PurchaseOrder PO-0000014 look like as a diagram?
 - Can you lookup 2 random EXC and see which have Values above 50?
