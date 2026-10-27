@@ -1,5 +1,9 @@
 # Progress hackathon project
 
+## How it works
+
+![](diagrams/how_it_works_example.png)
+
 ## Prerequisites
 
 - Python 3.11 - 3.14
@@ -8,7 +12,7 @@
 
 - PlantUML (diagrams)
 
-## Setup
+## How to setup
 
 ### Setup the Progress Application Server
 
@@ -110,8 +114,10 @@ python -m pip install -r ./frontend/requirements.txt
 
 Copy your **API key and save it as** `GEMINI_API_KEY`, as an environment variable.
 
-## Run the project
+## How to Run the project
 
 ```         
 python ./frontend/frontend_mimic.py
 ```
+
+Make a query
