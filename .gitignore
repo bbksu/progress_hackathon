@@ -6,3 +6,16 @@ commands.qmd
 database/test.csv
 *.csv#
 *.csv
+frontend/langchain.py
+frontend/ai_orch.py
+*.json
+database/generator.py
+database/jsonconv.py
+*.lg
+database/inventory/inventory.lg
+database/inventory/inventory.lg
+*.txt
+database/inventory/inventory.lg
+*.puml
+frontend/query.md
+diagrams/sample.png
